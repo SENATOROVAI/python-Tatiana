@@ -2,6 +2,7 @@
 
 Алгоритмы (Зарегаться + просто ознакомиться с заданиями):
 
+
 1)https://codeforces.com/
 https://codeforces.com/problemset/problem/4/A
 
