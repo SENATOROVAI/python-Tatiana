@@ -1,0 +1,20 @@
+07/08/2023 Lesson2
+1. Work ini VS code:
+2.connect to Python-tatiana: File -> Open folder . Choose the repository
+3.We check the history in outline and timeline
+4.Провалиться в папки - Explorer
+5. сохранить изменения ctrl+S
+6. обновить страницу на гитхаб ctrl+R
+7. When creating a new repository is very
+8. Create a new repository:
+ Repository->Owner(choose one)/ Repository name(enter a name)-> Add a README file(v(о чем репозиторий))-> Choose a license(MIT lisence)
+(https://github.com/organizations/SENATOROVAI/repositories/new)
+9. FORK
+Послле создания пеаозитория в организации, его надо скопировать в свой личный аккаунт GitHub.
+Это операция FORK-> Owner(kypena)/rep name -> create a new fork
+
+11.08.2023 Lesson3
+1. Подключение к venv витуальному окружению. Не запустился. Ошибка ядра
+2. Установка live_share 
+3. Подключение к web vs code
+4. Проверка знаний на ключевые слова 
