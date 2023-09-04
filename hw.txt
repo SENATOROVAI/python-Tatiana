@@ -35,3 +35,9 @@ https://library.samdu.uz/download/20642
 
 Data Science (зарегаться):
 1) https://www.kaggle.com/code/alexisbcook/titanic-tutorial
+
+09/05/23
+Linear algebra 
+1) https://lab.karpov.courses/learning/253/module/2697/ 
+
+congratulations!!!
