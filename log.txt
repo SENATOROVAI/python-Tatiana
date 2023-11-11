@@ -28,3 +28,5 @@
 2) np.max(w) # максимальное число в векторе
 3) extracting only even digits from the vector v[v%2==0]
 4) cross product of 2 vectors. Shapes must match! np.cross(a,b) (векторное произведение)
+08.11.2023
+Проходили линейные пространства. Аксиомы линейного пространства. Также проводитля опрос по линейной зависимости векторов.
