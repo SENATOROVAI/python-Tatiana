@@ -73,15 +73,67 @@ congratulations!!!
 1.16
 1.17
 
-=======================
-План на день:
-1) https://stepik.org/course/172781/syllabus (30-60min)
-2) инди курс https://stepik.org/course/63085/promo 1ч
-3) компьютер сайнс пройти курс https://learn.epam.com/detailsPage?id=07464fe7-306f-4aa2-abdb-fb81ba509124 1ч
-4) посмотреть видео https://www.youtube.com/watch?v=Wh22_O8jXVQ&list=PLIJLLSrXDPojDGKW0WZ7sU0eO3nyn0oDc 1ч 
-5) 1 задача на литкод, выходные отдых (250 задач в год)
-6) https://lab.karpov.courses/learning/253/module/2697/ (секция линал) 1ч
-7) скачать https://t.me/SenatorovBootcamp/766/8001 и выписать в тетрадь 54-63 страницы, проникнуться идеей что код работает за разное время и нужно уметь оценивать это время. вести конспект ДО 102 стр
+11/12
 
-Теория:
-Бортаковский, Емелин
+!!!ЕЖЕДНЕВНО, кроме выходных, 1 задача на литкод (250 задач в год)
+Algorithms:
+1) https://leetcode.com/tag/math/
+2) (по возможности сделать хотя бы до 100+ страницы) cкачать и делать минимум 1 упражнение/пример из пройденной темы, https://t.me/SenatorovBootcamp/766/8001, создать файл в папке algorithms/skiena.ipynb и начать выполнять задачи начиная с 52 страницы. Фото тетради вставлять в ячейки ноутбука, сами фотки хранить в папке photo размещённой в корне
+
+Computer Science:
+1) компьютер сайнс пройти курс https://learn.epam.com/detailsPage?id=07464fe7-306f-4aa2-abdb-fb81ba509124 
+2) посмотреть видео https://www.youtube.com/watch?v=Wh22_O8jXVQ&list=PLIJLLSrXDPojDGKW0WZ7sU0eO3nyn0oDc 
+
+GIT:
+1) https://learngitbranching.js.org/?locale=ru_RU
+
+Python:
+1) инди курс https://stepik.org/course/63085/promo 
+2) книга https://coderbooks.ru/books/python/python_dlya_detej_briggs_dzhejson_2017/
+
+Векторная алгебра в Numpy:
+1) https://stepik.org/course/172781/syllabus 
+ПРАКТИКА В NUMPY: https://www.kaggle.com/code/sokolovaleks/100-numpy-exercises-rus-version
+
+SQL:
+1) https://karpov.courses/simulator-sql
+2) https://sql-academy.org/ru/trainer/tasks/1 (ТОПОВАЯ ШТУКА)
+3) https://stepik.org/course/63054/syllabus
+4) https://stepik.org/course/3203/syllabus
+5) https://www.kaggle.com/learn/intro-to-sql
+6) https://www.kaggle.com/learn/advanced-sql
+
+Аналитика данных на pandas:
+1) https://stepik.org/course/74457/syllabus
+2) https://stepik.org/course/3356/syllabus начать с секции (6. Неделя 2 - Векторы, Матрицы)
+3) https://www.kaggle.com/learn/pandas
+4) https://www.freecodecamp.org/learn/data-analysis-with-python/
+5) https://stepik.org/course/4852/syllabus (только введение)
+ПРАКТИКА В PANDAS: https://leetcode.com/problemset/pandas/?sorting=W3sic29ydE9yZGVyIjoiQVNDRU5ESU5HIiwib3JkZXJCeSI6IkRJRkZJQ1VMVFkifV0%3D
+
+Data Visual:
+1) https://www.kaggle.com/learn/data-visualization
+2) https://www.kaggle.com/code/prashant111/matplotlib-tutorial-for-beginners
+3) https://www.kaggle.com/code/kanncaa1/seaborn-tutorial-for-beginners
+4) https://www.kaggle.com/code/kanncaa1/plotly-tutorial-for-beginners
+
+Data Cleaning:
+1) https://www.kaggle.com/learn/data-cleaning
+
+Tableau
+1) https://stepik.org/course/56280/syllabus
+
+Redash (в зависимости от конторы)
+1) https://stepik.org/course/70987/syllabus
+
+ClickHouse (в зависимости от конторы)
+1) https://stepik.org/course/177695/promo
+
+AirFlow (в зависимости от конторы)
+1)https://stepik.org/course/181476/promo
+
+Hadoop (только ознакомиться, а на собесе говорите что знаете):
+1) https://stepik.org/course/150/syllabus
+
+ML (опционально):
+1) https://ods.ai/tracks/open-ml-course
