@@ -3,18 +3,18 @@
 Алгоритмы (Зарегаться + просто ознакомиться с заданиями):
 
 
-1)https://codeforces.com/
-https://codeforces.com/problemset/problem/4/A
+1)https://codeforces.com/ 
+https://codeforces.com/problemset/problem/4/A (+)
 
 2)https://projecteuler.net/archives
-https://projecteuler.net/problem=1
+https://projecteuler.net/problem=1 (+)
 
 3)https://leetcode.com/
-https://leetcode.com/problems/palindrome-number/
+https://leetcode.com/problems/palindrome-number/ (+)
 
 
 git:
-1)подписаться на коллег https://github.com/orgs/SENATOROVAI/people   
+1)подписаться на коллег https://github.com/orgs/SENATOROVAI/people   (+)
             
 2)оформить гитхаб https://www.youtube.com/watch?v=pm17VwdJ6UI
    
@@ -23,7 +23,7 @@ git:
 
 Алгоритмы:
 1)скачать
-https://t.me/c/1733865840/429
+https://t.me/c/1733865840/429 (+)
 
                                                                         
 дискретка (математика для прогеров):
@@ -34,7 +34,7 @@ system design:
 https://library.samdu.uz/download/20642
 
 Data Science (зарегаться):
-1) https://www.kaggle.com/code/alexisbcook/titanic-tutorial
+1) https://www.kaggle.com/code/alexisbcook/titanic-tutorial (+)
 
 09/05/23
 Linear algebra 
@@ -56,8 +56,8 @@ congratulations!!!
 2) получить 3 сертификата, начать со степика инди курс https://t.me/SenatorovBootcamp/1/5243 , поколение пайтон можешь скипать.
 
 10/06
-1) Бортаковский до 79
-2) Демодович выполнить задание 1.2 и 1.3
+1) Бортаковский до 79 (+)
+2) Демодович выполнить задание 1.2 и 1.3 (+)
 
 10/12
 1) 1.4-1.6 демидович
@@ -70,8 +70,8 @@ congratulations!!!
 
 10/25
 1) Демидович
-1.16
-1.17
+1.16 (+)
+1.17 (+)
 
 11/12
 
