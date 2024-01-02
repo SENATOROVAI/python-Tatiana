@@ -138,5 +138,6 @@ Hadoop (только ознакомиться, а на собесе говори
 ML (опционально):
 1) https://ods.ai/tracks/open-ml-course
 
-1/1/24
-1) выполнить math/hw/
+01/01
+1)выполнить Math\calculus\hw\01.01\
+результат сохранить в limit1.pdf
