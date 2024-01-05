@@ -138,10 +138,11 @@ Hadoop (только ознакомиться, а на собесе говори
 ML (опционально):
 1) https://ods.ai/tracks/open-ml-course
 
+pandas (скипай пока) 1 задача в день https://leetcode.com/studyplan/introduction-to-pandas/ когда закончишь начни https://leetcode.com/studyplan/30-days-of-pandas/
+
 01/01
 1)выполнить /Math/hw/
 результат сохранить в func1.pdf (done)
-2) 1 задача в день https://leetcode.com/studyplan/introduction-to-pandas/ когда закончишь начни https://leetcode.com/studyplan/30-days-of-pandas/]
 
 01/05/
 1) выполнить math\calculus\hw
