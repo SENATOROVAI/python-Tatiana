@@ -145,6 +145,8 @@ pandas (скипай пока) 1 задача в день https://leetcode.com/s
 результат сохранить в func1.pdf (done)
 
 01/05/
-1) выполнить math\calculus\hw
+Теория по матану https://t.me/SenatorovBootcamp/888/11780
+1)выполнить math\calculus\hw
 результат сохранить в limit1.pdf
+
 
