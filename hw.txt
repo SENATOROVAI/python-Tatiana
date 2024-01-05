@@ -140,5 +140,5 @@ ML (опционально):
 
 01/01
 1)выполнить /Math/hw/
-результат сохранить в func1.pdf
+результат сохранить в func1.pdf (done)
 2) 1 задача в день https://leetcode.com/studyplan/introduction-to-pandas/ когда закончишь начни https://leetcode.com/studyplan/30-days-of-pandas/
