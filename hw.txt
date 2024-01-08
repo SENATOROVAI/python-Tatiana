@@ -149,4 +149,9 @@ pandas (скипай пока) 1 задача в день https://leetcode.com/s
 1)выполнить math\calculus\hw
 результат сохранить в limit1.pdf
 
+01/08
+1) скачать https://t.me/SenatorovBootcamp/888/11888 и выполнить 5.231 - 5.245
+результат сохранить в \Math\calculus\hw\limit2.pdf
+2)\calculus\hw\05.01
+
 
