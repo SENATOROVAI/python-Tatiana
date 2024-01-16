@@ -1,18 +1,20 @@
-# Привет, я Таня!
+# Hi, I'm Tatiana!
 
-### Начинающий разработчик и учусь языку программирования Python у профессионала своего дела - Сенаторова!
+### I am a novice data analyst!
 
-В этом репозитории я буду выкладывать свои проекты и задания, которые я выполняю в процессе обучения. Здесь вы найдете примеры моего кода, который я пишу на Python, а также материалы, которые помогают мне в изучении этого языка программирования.
+I will be posting my projects and assignments in this repository. Alongside with notebooks on Python you will be able to find here a lot of other useful data analyst study materials.
 
-Я начал учиться Python, потому что он является одним из самых популярных языков программирования в мире и широко используется во многих областях, таких как наука о данных, машинное обучение, веб-разработка и многое другое. Я уверен, что изучение Python даст мне возможность создавать удивительные проекты и стать настоящим профессионалом в области разработки.
+Nowardays Python is considered to be one of the most popular languages. It is widely used in many fields such as data science, machine learning, web development and many others. I am convinced that learning Python will provide me the opportunity to create amazing projects. 
 
-### Что вы найдёте в этом репозитории:
-#### •Код, который я пишу на Python
-#### •Примеры проектов, над которыми я работаю
-#### •Материалы, которые помогают мне в изучении языка программирования
 
-### Связаться со мной:
-Если у вас есть какие-либо вопросы или предложения, не стесняйтесь обращаться ко мне. Я всегда готов к общению и буду рад любым отзывам.
+### In this repository you will be able to find:
+#### •code on Python
+#### •research projects
+#### •some useful materials for data analyst 
 
-### Благодарность:
-Спасибо за то, что заглянули в мой репозиторий!
+### Contact me:
+In case there are any questions or suggestions, do not hesitate to contact me. I am always ready to communicate and I will be glad to receive any feedback.
+
+### Gratitude:
+Thank you for giving a look at my repository!
+
