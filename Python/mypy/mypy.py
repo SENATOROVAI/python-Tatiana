@@ -18,3 +18,5 @@ def get_Value(value: int) -> bool:
 print(getValue(x))
 
 get_Value('5')
+
+
