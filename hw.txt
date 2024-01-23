@@ -138,20 +138,24 @@ Hadoop (только ознакомиться, а на собесе говори
 ML (опционально):
 1) https://ods.ai/tracks/open-ml-course
 
-pandas (скипай пока) 1 задача в день https://leetcode.com/studyplan/introduction-to-pandas/ когда закончишь начни https://leetcode.com/studyplan/30-days-of-pandas/
+pandas (скипай пока) 1 задача в день 
+https://leetcode.com/studyplan/introduction-to-pandas/ 
+когда закончишь начни 
+https://leetcode.com/studyplan/30-days-of-pandas/
 
-01/01
-1)выполнить /Math/hw/
-результат сохранить в func1.pdf (done)
+01/23
+сначала делаешь на питоне в sympy https://t.me/c/1937296927/13078
+сохраняешь в \Math\calculus\01\sympy.ipynb
+И ТАК ВСЕ ЗАДАЧИ!
 
-01/05/
-Теория по матану https://t.me/SenatorovBootcamp/888/11780
-1)выполнить math\calculus\hw
-результат сохранить в limit1.pdf
+1) выполнить\Math\calculus\01
+сохранить фото из тетради в \Math\calculus\01\limit.pdf
 
-01/08
-1) скачать https://t.me/SenatorovBootcamp/888/11888 и выполнить 5.231 - 5.245
-результат сохранить в \Math\calculus\hw\limit2.pdf
-2)\calculus\hw\05.01
+2) скачать https://t.me/c/1937296927/888/11888 и выполнить 5.231 - 5.245
+результат сохранить в \Math\calculus\02\limit.pdf
+
+3) Math\calculus\hw\03
+результат сохранить в \Math\calculus\03\limit.pdf
+
 
 
