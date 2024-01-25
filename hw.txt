@@ -148,13 +148,13 @@ https://leetcode.com/studyplan/30-days-of-pandas/
 сохраняешь в \Math\calculus\01\sympy.ipynb
 И ТАК ВСЕ ЗАДАЧИ!
 
-1) выполнить\Math\calculus\01
+1) выполнить\Math\calculus\01 (done)
 сохранить фото из тетради в \Math\calculus\01\limit.pdf
 
 2) скачать https://t.me/c/1937296927/888/11888 и выполнить 5.231 - 5.245
 результат сохранить в \Math\calculus\02\limit.pdf
 
-3) Math\calculus\hw\03
+3) Math\calculus\hw\03 (done)
 результат сохранить в \Math\calculus\03\limit.pdf
 
 
