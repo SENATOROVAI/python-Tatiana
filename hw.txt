@@ -10,6 +10,7 @@ Math:
 1) пройти все разделы которые непонятны https://mathter.pro/pesochnica/index.html (фото конспекта скинуть в папку math/school_math/, в формате pdf)
 ==================================
 Calculus:
+Теория матан https://vk.com/doc297168001_651784102
 1) https://www.lektorium.tv/matematicheskij-analiz 
 1.1) https://stepik.org/course/716/syllabus 
 1.2) https://stepik.org/course/711/syllabus
