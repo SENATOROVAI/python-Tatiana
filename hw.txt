@@ -17,27 +17,27 @@ Calculus:
 1.1-1.2 - это альтернатива 1 пункту.
 2) https://lab.karpov.courses/learning/253/ секция матан 1
 
-1) выполнить\Math\calculus\01
+1) выполнить\Math\calculus\01 (done)
 сохранить фото из тетради в \Math\calculus\01\limit.pdf
 
 сделай первые 3 примера в sympy https://t.me/c/1937296927/13078
-сохраняешь в \Math\calculus\01\sympy.ipynb
+сохраняешь в \Math\calculus\01\sympy.ipynb (done)
 
 2) скачать https://t.me/c/1937296927/888/11888 и выполнить 5.231 - 5.245
-результат сохранить в \Math\calculus\02\limit.pdf
+результат сохранить в \Math\calculus\02\limit.pdf (undone)
 
 3) Math\calculus\hw\03
-результат сохранить в \Math\calculus\03\limit.pdf
+результат сохранить в \Math\calculus\03\limit.pdf (done)
 ==================================
 
 Python (получить сертификат):
-1)https://karpov.courses/pythonzero
-2)https://stepik.org/course/63085/promo
-3)https://www.kaggle.com/learn/intro-to-programming
+1)https://karpov.courses/pythonzero (done)
+2)https://stepik.org/course/63085/promo (undone)
+3)https://www.kaggle.com/learn/intro-to-programming (done)
 ==================================
 Алгоритмы (выполнить):
-1)https://codeforces.com/problemset/problem/4/A 
-2)https://leetcode.com/problems/palindrome-number/
+1)https://codeforces.com/problemset/problem/4/A (done)
+2)https://leetcode.com/problems/palindrome-number/ (done)
 3)переписать в тетрадь
 https://t.me/SenatorovBootcamp/766/8001 выписать 55стр до 70
 
@@ -62,8 +62,26 @@ Computer Science:
 ==================================
 Архив:
 
+Calculus:
+1) выполнить\Math\calculus\01
+сохранить фото из тетради в \Math\calculus\01\limit.pdf
+
+сделай первые 3 примера в sympy https://t.me/c/1937296927/13078
+сохраняешь в \Math\calculus\01\sympy.ipynb
+
+2) - 
+
+3) Math\calculus\hw\03
+результат сохранить в \Math\calculus\03\limit.pdf
+
 Python:
 
+1) https://github.com/kypena/python-Tatiana/blob/main/Courses/Karpov/certificate_python_basics.pdf
+2) - 
+3) https://www.kaggle.com/learn/intro-to-programming
 
-
+Алгоритмы (выполнить):
+1)https://codeforces.com/problemset?order=BY_RATING_ASC&tags=math
+2)https://leetcode.com/problems/palindrome-number/description/
+3) -
 
