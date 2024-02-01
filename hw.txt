@@ -1,161 +1,68 @@
-﻿25/07
+﻿выполненные задания переносим в Архив(внизу файла)
 
-Алгоритмы (Зарегаться + просто ознакомиться с заданиями):
+Git:
+1)подписаться на коллег https://github.com/orgs/SENATOROVAI/teams/senatorov-team   +      
+2)оформить гитхаб https://www.youtube.com/watch?v=pm17VwdJ6UI  
+3)выбор шаблона https://github.com/abhisheknaiidu/awesome-github-profile-readme
+4)https://t.me/c/1937296927/3602/5714 (начать делать)
 
+Math:
+1) пройти все разделы которые непонятны https://mathter.pro/pesochnica/index.html (фото конспекта скинуть в папку math/school_math/, в формате pdf)
+==================================
+Calculus:
+1) https://www.lektorium.tv/matematicheskij-analiz 
+1.1) https://stepik.org/course/716/syllabus 
+1.2) https://stepik.org/course/711/syllabus
+1.1-1.2 - это альтернатива 1 пункту.
+2) https://lab.karpov.courses/learning/253/ секция матан 1
 
-1)https://codeforces.com/ 
-https://codeforces.com/problemset/problem/4/A (+)
-
-2)https://projecteuler.net/archives
-https://projecteuler.net/problem=1 (+)
-
-3)https://leetcode.com/
-https://leetcode.com/problems/palindrome-number/ (+)
-
-
-git:
-1)подписаться на коллег https://github.com/orgs/SENATOROVAI/people   (+)
-            
-2)оформить гитхаб https://www.youtube.com/watch?v=pm17VwdJ6UI
-   
-2)выбор шаблона https://github.com/abhisheknaiidu/awesome-github-profile-readme
-
-
-Алгоритмы:
-1)скачать
-https://t.me/c/1733865840/429 (+)
-
-                                                                        
-дискретка (математика для прогеров):
-1)https://t.me/c/1733865840/43
-
-system design:
-скачать 
-https://library.samdu.uz/download/20642
-
-Data Science (зарегаться):
-1) https://www.kaggle.com/code/alexisbcook/titanic-tutorial (+)
-
-09/05/23
-Linear algebra 
-1) https://lab.karpov.courses/learning/253/module/2697/ 
-
-congratulations!!!
-
-09/13
-
-1) Задачник линал: Переписать всё до 10 страницы и выполнить 5 примеров, в решение не подглядывать, объяснить мне на уроке как решать СЛАУ.
-2) Algorithms https://www.coursera.org/learn/algorithms-part1 каждый день по 1ч, итого 5-6 недель обучения + в гитхаб конспект
-
-09/16
-
-1) скачать https://t.me/SenatorovBootcamp/766/8001 и выписать в тетрадь 54-63 страницы, проникнуться идеей что код работает за разное время и нужно уметь оценивать это время.
-
-09/19
-1) скачать https://t.me/SenatorovBootcamp/888/8192 и выполнить задание 1.1 на стр 7, фото тетради сохранить в pdf в папку /math/anal_demidovich/7.pdf
-2) получить 3 сертификата, начать со степика инди курс https://t.me/SenatorovBootcamp/1/5243 , поколение пайтон можешь скипать.
-
-10/06
-1) Бортаковский до 79 (+)
-2) Демодович выполнить задание 1.2 и 1.3 (+)
-
-10/12
-1) 1.4-1.6 демидович
-2) Напишите алгоритм, который вычисляет норму вектора путем переложения
-уравнения евклидово расстояния (done) 
-
-10/18
-1) Создайте функцию Python, которая на входе будет принимать вектор, а на
-выходе – выдавать единичный вектор в том же направлении. (done)
-
-10/25
-1) Демидович
-1.16 (+)
-1.17 (+)
-
-11/12
-
-!!!ЕЖЕДНЕВНО, кроме выходных, 1 задача на литкод (250 задач в год)
-Algorithms:
-1) https://leetcode.com/tag/math/
-2) (по возможности сделать хотя бы до 100+ страницы) cкачать и делать минимум 1 упражнение/пример из пройденной темы, https://t.me/SenatorovBootcamp/766/8001, создать файл в папке algorithms/skiena.ipynb и начать выполнять задачи начиная с 52 страницы. Фото тетради вставлять в ячейки ноутбука, сами фотки хранить в папке photo размещённой в корне
-
-Computer Science:
-1) компьютер сайнс пройти курс https://learn.epam.com/detailsPage?id=07464fe7-306f-4aa2-abdb-fb81ba509124 
-2) посмотреть видео https://www.youtube.com/watch?v=Wh22_O8jXVQ&list=PLIJLLSrXDPojDGKW0WZ7sU0eO3nyn0oDc 
-
-GIT:
-1) https://learngitbranching.js.org/?locale=ru_RU
-
-Python:
-1) инди курс https://stepik.org/course/63085/promo 
-2) книга https://coderbooks.ru/books/python/python_dlya_detej_briggs_dzhejson_2017/
-
-Векторная алгебра в Numpy:
-1) https://stepik.org/course/172781/syllabus 
-ПРАКТИКА В NUMPY: https://www.kaggle.com/code/sokolovaleks/100-numpy-exercises-rus-version
-
-SQL:
-1) https://karpov.courses/simulator-sql
-2) https://sql-academy.org/ru/trainer/tasks/1 (ТОПОВАЯ ШТУКА)
-3) https://stepik.org/course/63054/syllabus
-4) https://stepik.org/course/3203/syllabus
-5) https://www.kaggle.com/learn/intro-to-sql
-6) https://www.kaggle.com/learn/advanced-sql
-
-Аналитика данных на pandas:
-1) https://stepik.org/course/74457/syllabus
-2) https://stepik.org/course/3356/syllabus начать с секции (6. Неделя 2 - Векторы, Матрицы)
-3) https://www.kaggle.com/learn/pandas
-4) https://www.freecodecamp.org/learn/data-analysis-with-python/
-5) https://stepik.org/course/4852/syllabus (только введение)
-ПРАКТИКА В PANDAS: https://leetcode.com/problemset/pandas/?sorting=W3sic29ydE9yZGVyIjoiQVNDRU5ESU5HIiwib3JkZXJCeSI6IkRJRkZJQ1VMVFkifV0%3D
-
-Data Visual:
-1) https://www.kaggle.com/learn/data-visualization
-2) https://www.kaggle.com/code/prashant111/matplotlib-tutorial-for-beginners
-3) https://www.kaggle.com/code/kanncaa1/seaborn-tutorial-for-beginners
-4) https://www.kaggle.com/code/kanncaa1/plotly-tutorial-for-beginners
-
-Data Cleaning:
-1) https://www.kaggle.com/learn/data-cleaning
-
-Tableau
-1) https://stepik.org/course/56280/syllabus
-
-Redash (в зависимости от конторы)
-1) https://stepik.org/course/70987/syllabus
-
-ClickHouse (в зависимости от конторы)
-1) https://stepik.org/course/177695/promo
-
-AirFlow (в зависимости от конторы)
-1)https://stepik.org/course/181476/promo
-
-Hadoop (только ознакомиться, а на собесе говорите что знаете):
-1) https://stepik.org/course/150/syllabus
-
-ML (опционально):
-1) https://ods.ai/tracks/open-ml-course
-
-pandas (скипай пока) 1 задача в день 
-https://leetcode.com/studyplan/introduction-to-pandas/ 
-когда закончишь начни 
-https://leetcode.com/studyplan/30-days-of-pandas/
-
-01/23
-сначала делаешь на питоне в sympy https://t.me/c/1937296927/13078
-сохраняешь в \Math\calculus\01\sympy.ipynb
-И ТАК ВСЕ ЗАДАЧИ!
-
-1) выполнить\Math\calculus\01 (done)
+1) выполнить\Math\calculus\01
 сохранить фото из тетради в \Math\calculus\01\limit.pdf
+
+сделай первые 3 примера в sympy https://t.me/c/1937296927/13078
+сохраняешь в \Math\calculus\01\sympy.ipynb
 
 2) скачать https://t.me/c/1937296927/888/11888 и выполнить 5.231 - 5.245
 результат сохранить в \Math\calculus\02\limit.pdf
 
-3) Math\calculus\hw\03 (done)
+3) Math\calculus\hw\03
 результат сохранить в \Math\calculus\03\limit.pdf
+==================================
+
+Python (получить сертификат):
+1)https://karpov.courses/pythonzero
+2)https://stepik.org/course/63085/promo
+3)https://www.kaggle.com/learn/intro-to-programming
+==================================
+Алгоритмы (выполнить):
+1)https://codeforces.com/problemset/problem/4/A 
+2)https://leetcode.com/problems/palindrome-number/
+3)переписать в тетрадь
+https://t.me/SenatorovBootcamp/766/8001 выписать 55стр до 70
+
+1 задача в день: 
+https://codeforces.com/problemset?order=BY_RATING_ASC&tags=math
+
+копируешь с каждой странице по 1 решению:
+первая страница https://codeforces.com/problemset/status/4/problem/A 
+середина https://codeforces.com/problemset/status/4/problem/A/page/600?order=BY_PROGRAM_LENGTH_ASC
+последняя https://codeforces.com/problemset/status/4/problem/A/page/1356?order=BY_PROGRAM_LENGTH_ASC
+ 
+и вставляешь себе в алгоритмы Algorithms\codeforces.ipynb, потом проводишь разбор кода 
+и так дальше по другим задачам.
+==================================
+                                                                        
+Computer Science:
+1) компьютер сайнс пройти курс https://learn.epam.com/detailsPage?id=07464fe7-306f-4aa2-abdb-fb81ba509124 
+2) посмотреть видео https://www.youtube.com/watch?v=Wh22_O8jXVQ&list=PLIJLLSrXDPojDGKW0WZ7sU0eO3nyn0oDc  Done!
+
+
+==================================
+==================================
+Архив:
+
+Python:
+
 
 
 
