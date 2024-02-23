@@ -11,6 +11,7 @@ https://vk.com/doc297168001_651784102
 Практика:
 1*) https://www.lektorium.tv/matematicheskij-analiz (прочитать весь "Список теоретических материалов"(под видео) и выписать в тетрадь все ПРИМЕРЫ И РЕШЕНИЯ), пройти ДО дифуров!
 конспект сохраняешь в \Math\calculus\lektorium\topic_name.pdf  topic_name - название темы
+1.1) доп курс выполнять параллельно с 1 https://edu.sirius.online/#/course/1788
 
 При выполнении 1*) обязательно опираться на эти 2 плейлиста:
 Теория+практика видео: https://www.youtube.com/watch?v=zkTFyZVav-s&list=PLGtfmJuN1mTD2ND-zeBWHv3ACO5J0G9DR
