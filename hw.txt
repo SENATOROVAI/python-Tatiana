@@ -3,7 +3,27 @@
 Math:
 2) экспресс курс по школьной математике, 2 лучших учебника \Math\school_theory
 ==================================
+SQL:
+1) https://karpov.courses/simulator-sql
+2)https://sql-ex.ru/register.php?Lang=0
+2.1 https://sql-ex.ru/learn_exercises.php
+(ответы http://sql-tutorial.ru/ru/book_exercise_1.html
+схема БД http://sql-tutorial.ru/ru/book_computers_database.html)
 
+3) https://www.kaggle.com/learn/intro-to-sql
+4) https://www.kaggle.com/learn/advanced-sql
+5) https://stepik.org/course/63054/syllabus
+6) https://stepik.org/course/3203/syllabus
+7) https://sql-academy.org/ru/trainer/tasks/1
+
+2)contecst по аналитике(опционально) 
+https://contest.yandex.ru/contest/28416/enter
+A/B(справочник):
+https://education.yandex.ru/journal/kak-provesti-a-b-testirovanie-6-prostykh-shagov
+Algorithms(опционально):
+1)https://yandex.ru/yaintern/algorithm-training
+2)https://habr.com/ru/companies/yandex/articles/449890/
+==================================
 Calculus:
 
 1) Демидович 117 стр 7.1-7.11, 7.15-7.29, 7.44-7.45, 7.81-7.84, 7.114-7.115,
