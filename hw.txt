@@ -51,7 +51,9 @@ SQL:
 7) https://sql-academy.org/ru/trainer/tasks/1
 ==================================                                                                        
 Практика:
-1) https://education.yandex.ru/handbook/data-analysis
+1) https://t.me/c/1937296927/832/13289 прочитать
+1.1) https://t.me/c/1937296927/832/13290 прочитать
+1.3) https://education.yandex.ru/handbook/data-analysis
 2) https://t.me/c/1937296927/832/16118, берём отсюда ссылки на kaggle и проводим EDA анализ.
 3)contecst по аналитике(опционально) 
 https://contest.yandex.ru/contest/28416/enter
