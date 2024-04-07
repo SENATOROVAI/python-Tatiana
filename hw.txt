@@ -50,11 +50,12 @@ Algorithms(опционально):
 ==================================
 Практика:
 1) https://education.yandex.ru/handbook/data-analysis
-2)contecst по аналитике(опционально) 
+2) https://t.me/c/1937296927/832/16118, берём отсюда ссылки на kaggle и проводим EDA анализ.
+3)contecst по аналитике(опционально) 
 https://contest.yandex.ru/contest/28416/enter
-A/B(справочник):
+4)A/B(справочник):
 https://education.yandex.ru/journal/kak-provesti-a-b-testirovanie-6-prostykh-shagov
-
+==================================
 Calculus:
 
 1) Демидович 117 стр 7.1-7.11, 7.15-7.29, 7.44-7.45, 7.81-7.84, 7.114-7.115,
