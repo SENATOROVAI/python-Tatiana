@@ -44,16 +44,16 @@ SQL:
 6) https://stepik.org/course/3203/syllabus
 7) https://sql-academy.org/ru/trainer/tasks/1
 
-2)contecst по аналитике(опционально) 
-https://contest.yandex.ru/contest/28416/enter
-A/B(справочник):
-https://education.yandex.ru/journal/kak-provesti-a-b-testirovanie-6-prostykh-shagov
 Algorithms(опционально):
 1)https://yandex.ru/yaintern/algorithm-training
 2)https://habr.com/ru/companies/yandex/articles/449890/
 ==================================
 Практика:
 1) https://education.yandex.ru/handbook/data-analysis
+2)contecst по аналитике(опционально) 
+https://contest.yandex.ru/contest/28416/enter
+A/B(справочник):
+https://education.yandex.ru/journal/kak-provesti-a-b-testirovanie-6-prostykh-shagov
 
 Calculus:
 
