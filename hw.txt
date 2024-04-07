@@ -24,6 +24,20 @@ Algorithms(опционально):
 1)https://yandex.ru/yaintern/algorithm-training
 2)https://habr.com/ru/companies/yandex/articles/449890/
 ==================================
+Аналитика данных на pandas:
+1) https://stepik.org/course/74457/syllabus
+2) https://stepik.org/course/3356/syllabus начать с секции (6. Неделя 2 - Векторы, Матрицы)
+3) https://www.kaggle.com/learn/pandas
+4) https://www.freecodecamp.org/learn/data-analysis-with-python/
+5) https://stepik.org/course/4852/syllabus (только введение)
+ПРАКТИКА В PANDAS: https://leetcode.com/problemset/pandas/?sorting=W3sic29ydE9yZGVyIjoiQVNDRU5ESU5HIiwib3JkZXJCeSI6IkRJRkZJQ1VMVFkifV0%3D
+
+1 задача в день 
+https://leetcode.com/studyplan/introduction-to-pandas/ 
+когда закончишь начни 
+https://leetcode.com/studyplan/30-days-of-pandas/
+==================================
+
 Calculus:
 
 1) Демидович 117 стр 7.1-7.11, 7.15-7.29, 7.44-7.45, 7.81-7.84, 7.114-7.115,
@@ -70,12 +84,6 @@ Python (получить сертификат):
 1)https://karpov.courses/pythonzero (done)
 2)https://stepik.org/course/63085/promo (undone)
 3)https://www.kaggle.com/learn/intro-to-programming (done)
-==================================
-Pandas:
-1) 1 задача в день 
-https://leetcode.com/studyplan/introduction-to-pandas/ 
-2) когда закончишь начни 
-https://leetcode.com/studyplan/30-days-of-pandas/
 ==================================
 Алгоритмы (выполнить):
 3)переписать в тетрадь
