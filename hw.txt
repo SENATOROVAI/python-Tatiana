@@ -1,7 +1,35 @@
 ﻿выполненные задания переносим в Архив(внизу файла)
+==================================
+Аналитика данных на pandas:
+1) https://stepik.org/course/74457/syllabus
+2) https://stepik.org/course/3356/syllabus начать с секции (6. Неделя 2 - Векторы, Матрицы)
+3) https://www.kaggle.com/learn/pandas
+4) https://www.freecodecamp.org/learn/data-analysis-with-python/
+5) https://stepik.org/course/4852/syllabus (только введение)
+ПРАКТИКА В PANDAS: https://leetcode.com/problemset/pandas/?sorting=W3sic29ydE9yZGVyIjoiQVNDRU5ESU5HIiwib3JkZXJCeSI6IkRJRkZJQ1VMVFkifV0%3D
 
-Math:
-2) экспресс курс по школьной математике, 2 лучших учебника \Math\school_theory
+1 задача в день 
+https://leetcode.com/studyplan/introduction-to-pandas/ 
+когда закончишь начни 
+https://leetcode.com/studyplan/30-days-of-pandas/
+==================================
+Data Cleaning(Regex):
+1)https://leetcode.com/tag/string-matching/ выполнить изи и попробуй мидл
+2) получить сертификат:  https://stepik.org/course/49442
+2.1) https://www.datacamp.com/tutorial/data-preparation-with-pandas
+2.2) https://www.w3schools.com/python/pandas/pandas_cleaning_wrong_data.asp
+3)https://machinelearningtutorials.org/tutorial-using-pandas-with-regular-expressions-regex/ повторить в ноутбуке
+4)https://kanoki.org/2019/11/12/how-to-use-regex-in-pandas/ повторить в ноутбуке
+5)https://www.geeksforgeeks.org/replace-values-in-pandas-dataframe-using-regex/ повторить в ноутбуке
+6)https://www.kaggle.com/learn/data-cleaning 
+7)https://www.dataquest.io/blog/regular-expressions-data-scientists/ повторить в ноутбуке
+==================================
+Data Visual:
+1) https://www.kaggle.com/learn/data-visualization
+2) https://www.kaggle.com/code/prashant111/matplotlib-tutorial-for-beginners
+3) https://www.kaggle.com/code/kanncaa1/seaborn-tutorial-for-beginners
+4) https://www.kaggle.com/code/kanncaa1/plotly-tutorial-for-beginners (опционально)
+5) https://t.me/c/1937296927/832/14284 (rus) прочитать 
 ==================================
 SQL:
 1) https://karpov.courses/simulator-sql
@@ -24,20 +52,6 @@ Algorithms(опционально):
 1)https://yandex.ru/yaintern/algorithm-training
 2)https://habr.com/ru/companies/yandex/articles/449890/
 ==================================
-Аналитика данных на pandas:
-1) https://stepik.org/course/74457/syllabus
-2) https://stepik.org/course/3356/syllabus начать с секции (6. Неделя 2 - Векторы, Матрицы)
-3) https://www.kaggle.com/learn/pandas
-4) https://www.freecodecamp.org/learn/data-analysis-with-python/
-5) https://stepik.org/course/4852/syllabus (только введение)
-ПРАКТИКА В PANDAS: https://leetcode.com/problemset/pandas/?sorting=W3sic29ydE9yZGVyIjoiQVNDRU5ESU5HIiwib3JkZXJCeSI6IkRJRkZJQ1VMVFkifV0%3D
-
-1 задача в день 
-https://leetcode.com/studyplan/introduction-to-pandas/ 
-когда закончишь начни 
-https://leetcode.com/studyplan/30-days-of-pandas/
-==================================
-
 Calculus:
 
 1) Демидович 117 стр 7.1-7.11, 7.15-7.29, 7.44-7.45, 7.81-7.84, 7.114-7.115,
@@ -101,7 +115,7 @@ Computer Science:
 
 Math:
 1) пройти все разделы которые непонятны https://mathter.pro/pesochnica/index.html (фото конспекта скинуть в папку math/school_math/, в формате pdf)
-
+2) экспресс курс по школьной математике, 2 лучших учебника \Math\school_theory
 Git:
 1)подписаться на коллег https://github.com/orgs/SENATOROVAI/teams/senatorov-team   +      
 2)оформить гитхаб https://www.youtube.com/watch?v=pm17VwdJ6UI  
