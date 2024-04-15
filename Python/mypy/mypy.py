@@ -3,20 +3,22 @@
 
 x: int = 6
 
+
 def getValue(value: int) -> int:
     return value + 5
 
-#print(getValue('5'))
+
+# print(getValue('5'))
 print(getValue(x))
 
 num: int = 1
 
+
 def get_Value(value: int) -> bool:
     return value == 5
 
-#print(getValue('5'))
+
+# print(getValue('5'))
 print(getValue(x))
 
-get_Value('5')
-
-
+get_Value(5)
