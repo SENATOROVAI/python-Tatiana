@@ -11,7 +11,7 @@ city_map = [
 start_point = (4, 2)  # start (format(x,y))
 target_point = [(6, 0), (1, 4), (2, 2)]  # target  (format(x,y))
 
-start_point = [
+start_point: List[int] = [
     start_point[1],
     start_point[0],
 ]  # (reverse start point (to get format(y-rows,x-columns)))
@@ -79,7 +79,7 @@ def check_move(
     return False
 
 
-moves = []
+moves: List[int] = []
 
 # create an iteration to reach the end of target_point
 for i in target_point_to_list:
@@ -95,12 +95,16 @@ for i in target_point_to_list:
                 )
                 and 0 <= route[-1][0] + 1 < len(city_map)
             )
-            else route[-1][0] - 1
-            if (
-                check_move(route[-1], route[-1][0] - 1, moves, river_coordinates, "row")
-                and 0 <= route[-1][0] - 1 < len(city_map)
+            else (
+                route[-1][0] - 1
+                if (
+                    check_move(
+                        route[-1], route[-1][0] - 1, moves, river_coordinates, "row"
+                    )
+                    and 0 <= route[-1][0] - 1 < len(city_map)
+                )
+                else route[-1][0]
             )
-            else route[-1][0]
         )
         if new_row != route[-1][0]:  # Check for row updates
             route.append((new_row, route[-1][1]))
@@ -120,14 +124,16 @@ for i in target_point_to_list:
                 )
                 and 0 <= route[-1][1] + 1 < len(city_map[0])
             )
-            else route[-1][1] - 1
-            if (
-                check_move(
-                    route[-1], route[-1][1] - 1, moves, river_coordinates, "column"
+            else (
+                route[-1][1] - 1
+                if (
+                    check_move(
+                        route[-1], route[-1][1] - 1, moves, river_coordinates, "column"
+                    )
+                    and 0 <= route[-1][1] - 1 < len(city_map[0])
                 )
-                and 0 <= route[-1][1] - 1 < len(city_map[0])
+                else route[-1][1]
             )
-            else route[-1][1]
         )
 
         if new_col != route[-1][1]:  # Check for column updates
