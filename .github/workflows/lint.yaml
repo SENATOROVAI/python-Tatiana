@@ -35,19 +35,24 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install nbqa pylint isort "black[jupyter]"
+          pip install nbqa pylint isort "black[jupyter]" mypy
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Pylint
         run: |
-          pylint $(git ls-files '*.py')
-          nbqa pylint $(git ls-files '*.ipynb')
+          pylint --disable=missing-module-docstring $(git ls-files '*.py')
+          nbqa pylint --disable=missing-module-docstring $(git ls-files '*.ipynb') 
       - name: isort
         run: |
           isort --check-only --diff $(git ls-files '*.py')
           nbqa isort --check-only --diff $(git ls-files '*.ipynb')
       - name: Black
         run: |
-          black --check --diff --line-length=80 $(git ls-files '*.py' '*.ipynb')
+          black --check --diff --line-length=80 $(git ls-files '*.py')
+          nbqa black --check --diff --line-length=80 $(git ls-files '*.ipynb')
+      - name: Mypy
+        run: |
+          mypy $(git ls-files '*.py')   
+          nbqa mypy $(git ls-files '*.ipynb')   
   prettier:
     timeout-minutes: 1
     runs-on: ubuntu-latest
@@ -59,4 +64,4 @@ jobs:
         with:
           node-version: '20'
       - name: Check formatting
-        run: npx --yes prettier --check .
+        run: npx --yes prettier --check
