@@ -22,4 +22,4 @@ def get_value2(value: int) -> bool:
 # print(getValue('5'))
 print(get_value2(x))
 
-get_Value(5)
+get_value2(5)
