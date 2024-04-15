@@ -4,21 +4,22 @@
 x: int = 6
 
 
-def getValue(value: int) -> int:
+def get_value(value: int) -> int:
+    """Function printing python version."""
     return value + 5
 
 
 # print(getValue('5'))
-print(getValue(x))
+print(get_value(x))
 
 num: int = 1
 
-
 def get_Value(value: int) -> bool:
+    """Function printing python version."""
     return value == 5
 
 
 # print(getValue('5'))
-print(getValue(x))
+print(get_Value(x))
 
 get_Value(5)
