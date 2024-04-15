@@ -17,9 +17,7 @@ num: int = 1
 def get_value2(value: int) -> bool:
     """Function printing python version."""
     return value == 5
-
-
-# print(getValue('5'))
+ 
 print(get_value2(x))
 
 get_value2(5)
