@@ -1,2 +1,5 @@
 venv
 .mypy_cache
+codeforses.ipynb
+github
+lint.yaml
