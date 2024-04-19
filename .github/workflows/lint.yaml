@@ -39,8 +39,8 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Pylint
         run: |
-          pylint --disable=missing-module-docstring --max-line-length=80 $(git ls-files '*.py')
-          nbqa pylint --disable=missing-module-docstring --max-line-length=80 $(git ls-files '*.ipynb') 
+          pylint --max-line-length=80 $(git ls-files '*.py')
+          nbqa pylint --max-line-length=80 $(git ls-files '*.ipynb') 
       - name: isort
         run: |
           isort --check-only --diff $(git ls-files '*.py')
