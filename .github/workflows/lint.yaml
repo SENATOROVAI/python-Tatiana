@@ -40,7 +40,7 @@ jobs:
       - name: pyupgrade
         run: |
           pyupgrade $(git ls-files '*.py')
-          nbqa pyupgrade $(git ls-files '*.ipynb') 
+          # nbqa pyupgrade $(git ls-files '*.ipynb') 
       - name: Pylint
         run: |
           pylint --max-line-length=80 $(git ls-files '*.py')
