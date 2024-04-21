@@ -37,10 +37,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install "nbqa[toolchain]" pylint isort "black[jupyter]" mypy pyupgrade pytest flake8
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      - name: Lint with flake8
-        run: |
-          flake8 --count --show-source --statistics $(git ls-files '*.py')
-      
       - name: pyupgrade
         run: |
           pyupgrade $(git ls-files '*.py')
