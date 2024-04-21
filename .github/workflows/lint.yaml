@@ -40,11 +40,11 @@ jobs:
       - name: pyupgrade
         run: |
           pyupgrade $(git ls-files '*.py')
-          nbqa pyupgrade $(git ls-files '*.ipynb') 
+          nbqa pyupgrade $(git ls-files '*.ipynb')
       - name: Pylint
         run: |
           pylint --max-line-length=79 $(git ls-files '*.py')
-          nbqa pylint --max-line-length=79 $(git ls-files '*.ipynb') 
+          nbqa pylint --max-line-length=79 $(git ls-files '*.ipynb')
       - name: isort
         run: |
           isort --check-only --diff $(git ls-files '*.py')
@@ -55,8 +55,8 @@ jobs:
           nbqa black --check --diff --line-length=80 $(git ls-files '*.ipynb')
       - name: Mypy
         run: |
-          mypy $(git ls-files '*.py')   
-          nbqa mypy $(git ls-files '*.ipynb')   
+          mypy $(git ls-files '*.py')
+          nbqa mypy $(git ls-files '*.ipynb')
   prettier:
     timeout-minutes: 1
     runs-on: ubuntu-latest

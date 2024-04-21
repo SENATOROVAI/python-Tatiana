@@ -1,9 +1,9 @@
 """
  docs module
 """
-
 # Type Hinting = Статическая типизация =Аннотация типов in python 3.8
 # Раннее авыявление ошибок, отладка кода
+from __future__ import annotations
 
 x: int = 6
 
