@@ -26,6 +26,7 @@ repos:
         require_serial: true
         types_or: [jupyter, markdown]
         additional_dependencies: [mypy]
+        args: ["--ignore-missing-imports"]
       - id: nbqa-pylint
         name: nbqa-pylint
         description: Run 'pylint' on a Jupyter Notebook
@@ -117,6 +118,7 @@ repos:
     rev: v1.9.0
     hooks:
       - id: mypy
+        args: ["--ignore-missing-imports"]
   - repo: local
     hooks:
       - id: pylint
