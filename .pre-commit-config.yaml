@@ -18,17 +18,11 @@ repos:
         require_serial: true
         types_or: [jupyter, markdown]
         additional_dependencies: [black]
-
   - repo: https://github.com/asottile/pyupgrade
     rev: v3.15.2
     hooks:
       - id: pyupgrade
         args: [--py39-plus]
-  - repo: https://github.com/hhatto/autopep8
-    rev: v2.1.0
-    hooks:
-      - id: autopep8
-
   - repo: https://github.com/pycqa/isort
     rev: 5.13.2
     hooks:
@@ -42,14 +36,6 @@ repos:
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.8.5
     hooks:
-      - id: nbqa-autopep8
-        name: nbqa-autopep8
-        description: Run 'autopep8' on a Jupyter Notebook
-        entry: nbqa autopep8 -i
-        language: python
-        require_serial: true
-        types_or: [jupyter, markdown]
-        additional_dependencies: [autopep8]
       - id: nbqa-pyupgrade
         name: nbqa-pyupgrade
         description: Run 'pyupgrade' on a Jupyter Notebook
@@ -89,7 +75,7 @@ repos:
     rev: 1.8.5
     hooks:
       - id: nbqa-flake8
-        args: ["--ignore=E501,E712,W291,F632"]
+        args: ["--ignore=E501,E712,W291,F632,E203"]
         name: nbqa-flake8
         description: Run 'flake8' on a Jupyter Notebook
         entry: nbqa flake8
@@ -105,7 +91,7 @@ repos:
     rev: 7.0.0
     hooks:
       - id: flake8
-        args: ["--ignore=E501,E712,W291,F632"]
+        args: ["--ignore=E501,E712,W291,F632,E203"]
         additional_dependencies:
           - flake8-variables-names
           - pep8-naming
@@ -141,7 +127,12 @@ repos:
         require_serial: true
         types_or: [jupyter, markdown]
         additional_dependencies: [pylint]
-        args: ["--max-line-length=79", "--const-naming-style=any","--disable=E0401"]
+        args:
+          [
+            "--max-line-length=79",
+            "--const-naming-style=any",
+            "--disable=E0401",
+          ]
 
   - repo: https://github.com/pre-commit/mirrors-pylint
     rev: v2.3.1
@@ -151,7 +142,8 @@ repos:
         entry: pylint
         language: python
         types: [python]
-        args: [--max-line-length=79, "--const-naming-style=any","--disable=E0401"]
+        args:
+          [--max-line-length=79, "--const-naming-style=any", "--disable=E0401"]
         additional_dependencies: [pylint]
 
   - repo: https://github.com/nbQA-dev/nbQA
@@ -165,15 +157,3 @@ repos:
         require_serial: true
         types_or: [jupyter, markdown]
         additional_dependencies: [pydocstyle]
-
-  - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.8.5
-    hooks:
-      - id: nbqa-yapf
-        name: nbqa-yapf
-        description: Run 'yapf' on a Jupyter Notebook
-        entry: nbqa yapf --in-place
-        language: python
-        require_serial: true
-        types_or: [jupyter, markdown]
-        additional_dependencies: [yapf]
