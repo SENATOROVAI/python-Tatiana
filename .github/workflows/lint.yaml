@@ -35,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install "nbqa[toolchain]" pylint isort "black[jupyter]" mypy pyupgrade flake8-variables-names pep8-naming flake8-functions-names
+          pip install "nbqa[toolchain]" pylint isort "black[jupyter]" mypy pandas-stubs pyupgrade flake8-variables-names pep8-naming flake8-functions-names
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Flake8
         run: |
