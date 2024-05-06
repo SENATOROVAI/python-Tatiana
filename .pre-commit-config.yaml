@@ -106,7 +106,10 @@ repos:
         language: python
         require_serial: true
         types_or: [jupyter, markdown]
-        additional_dependencies: [mypy]
+        additional_dependencies: [
+                mypy,
+                pandas-stubs,     
+        ]
         args: ["--ignore-missing-imports"]
 
   - repo: https://github.com/pre-commit/mirrors-mypy
@@ -114,6 +117,10 @@ repos:
     hooks:
       - id: mypy
         args: ["--ignore-missing-imports"]
+        additional_dependencies: [
+                mypy,
+                pandas-stubs,     
+        ]
 
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.8.5
