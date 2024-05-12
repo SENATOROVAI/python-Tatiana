@@ -136,6 +136,10 @@ repos:
           - --pretty
           - --force-uppercase-builtins
           - --force-union-syntax
+          - --warn-unreachable
+          - --warn-redundant-casts
+          - --warn-return-any
+
 
 
   - repo: https://github.com/pre-commit/mirrors-mypy
@@ -163,6 +167,9 @@ repos:
           - --pretty
           - --force-uppercase-builtins
           - --force-union-syntax
+          - --warn-unreachable
+          - --warn-redundant-casts
+          - --warn-return-any
 
 
 
