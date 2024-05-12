@@ -107,19 +107,18 @@ repos:
         require_serial: true
         types_or: [jupyter, markdown]
         additional_dependencies:
-               - mypy
-               - pandas-stubs
-               - git+https://github.com/numpy/numpy-stubs
-               - mypy-extensions
-               - types-requests
-               - types-PyYAML
-               - types-setuptools
+          - mypy
+          - pandas-stubs
+          - git+https://github.com/numpy/numpy-stubs
+          - mypy-extensions
+          - types-requests
+          - types-PyYAML
+          - types-setuptools
 
         args:
           - --ignore-missing-imports
           - --disallow-untyped-calls
           - --disallow-untyped-defs
-          - --disallow-incomplete-defs
           - --disallow-untyped-decorators
           - --strict
           - --extra-checks
@@ -132,7 +131,9 @@ repos:
           - --local-partial-types
           - --non-interactive
           - --install-types
-
+          - --pretty
+          - --force-uppercase-builtins
+          - --force-union-syntax
 
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: v1.9.0
@@ -142,7 +143,6 @@ repos:
           - --ignore-missing-imports
           - --disallow-untyped-calls
           - --disallow-untyped-defs
-          - --disallow-incomplete-defs
           - --disallow-untyped-decorators
           - --strict
           - --extra-checks
@@ -155,14 +155,18 @@ repos:
           - --local-partial-types
           - --non-interactive
           - --install-types
+          - --pretty
+          - --force-uppercase-builtins
+          - --force-union-syntax
+
         additional_dependencies:
-               - mypy
-               - pandas-stubs
-               - git+https://github.com/numpy/numpy-stubs
-               - mypy-extensions
-               - types-requests
-               - types-PyYAML
-               - types-setuptools
+          - mypy
+          - pandas-stubs
+          - git+https://github.com/numpy/numpy-stubs
+          - mypy-extensions
+          - types-requests
+          - types-PyYAML
+          - types-setuptools
 
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.8.5
