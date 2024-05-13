@@ -195,7 +195,7 @@ repos:
           [
             "--max-line-length=79",
             "--const-naming-style=any",
-            "--disable=E0401",
+            "--disable=E0401,W0104",
           ]
 
   - repo: https://github.com/pre-commit/mirrors-pylint
@@ -207,7 +207,7 @@ repos:
         language: python
         types: [python]
         args:
-          [--max-line-length=79, "--const-naming-style=any", "--disable=E0401"]
+          [--max-line-length=79, "--const-naming-style=any", "--disable=E0401,W0104"]
         additional_dependencies: [pylint]
 
   - repo: https://github.com/nbQA-dev/nbQA
