@@ -1,9 +1,13 @@
 repos:
-  - repo: https://gitee.com/openmmlab/mirrors-docformatter
-    rev: v1.3.1
+  - repo: https://github.com/PyCQA/docformatter
+    rev: v1.7.5
     hooks:
       - id: docformatter
-        args: ["--in-place", "--wrap-descriptions", "79"]
+        args: [
+            --in-place,
+            --wrap-descriptions=79,
+            --style=google,
+          ]
   - repo: https://github.com/asottile/add-trailing-comma
     rev: v3.1.0
     hooks:
@@ -134,7 +138,6 @@ repos:
           - --extra-checks
           - --disallow-any-decorated
           - --disallow-any-generics
-          - --disallow-subclassing-any
           - --local-partial-types
           - --pretty
           - --force-uppercase-builtins
@@ -162,7 +165,6 @@ repos:
           - --extra-checks
           - --disallow-any-decorated
           - --disallow-any-generics
-          - --disallow-subclassing-any
           - --local-partial-types
           - --pretty
           - --force-uppercase-builtins
