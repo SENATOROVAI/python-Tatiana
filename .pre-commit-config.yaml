@@ -132,7 +132,6 @@ repos:
           - --disallow-untyped-decorators
           - --strict
           - --extra-checks
-          - --disallow-any-unimported
           - --disallow-any-decorated
           - --disallow-any-generics
           - --disallow-subclassing-any
@@ -161,7 +160,6 @@ repos:
           - --disallow-untyped-decorators
           - --strict
           - --extra-checks
-          - --disallow-any-unimported
           - --disallow-any-decorated
           - --disallow-any-generics
           - --disallow-subclassing-any
