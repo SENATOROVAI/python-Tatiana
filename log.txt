@@ -7,7 +7,7 @@
 6. обновить страницу на гитхаб ctrl+R
 7. When creating a new repository is very
 8. Create a new repository:
- Repository->Owner(choose one)/ Repository name(enter a name)-> Add a README file(v(о чем репозиторий))-> Choose a license(MIT lisence)
+ Repository->Owner(choose one)/ Repository name(enter a name)-> Add a README file(v(о чем репозиторий))-> Choose a license(MIT licence)
 (https://github.com/organizations/SENATOROVAI/repositories/new)
 9. FORK
 Послле создания пеаозитория в организации, его надо скопировать в свой личный аккаунт GitHub.
