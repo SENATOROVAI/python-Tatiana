@@ -3,11 +3,7 @@ repos:
     rev: v1.7.5
     hooks:
       - id: docformatter
-        args: [
-            --in-place,
-            --wrap-descriptions=79,
-            --style=google,
-          ]
+        args: [--in-place, --wrap-descriptions=79, --style=google]
   - repo: https://github.com/asottile/add-trailing-comma
     rev: v3.1.0
     hooks:
@@ -85,7 +81,9 @@ repos:
     rev: 1.8.5
     hooks:
       - id: nbqa-flake8
-        args: ["--ignore=E501,E712,W291,F632,E203"]
+        args:
+          - --ignore=E501,E712,W291,F632,E203
+          - --exclude=.*
         name: nbqa-flake8
         description: Run 'flake8' on a Jupyter Notebook
         entry: nbqa flake8
@@ -101,7 +99,9 @@ repos:
     rev: 7.0.0
     hooks:
       - id: flake8
-        args: ["--ignore=E501,E712,W291,F632,E203"]
+        args:
+          - --ignore=E501,E712,W291,F632,E203
+          - --exclude=.*
         additional_dependencies:
           - flake8-variables-names
           - pep8-naming
@@ -148,7 +148,6 @@ repos:
           - --warn-return-any
 
 
-
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: v1.9.0
     hooks:
@@ -175,7 +174,6 @@ repos:
           - --warn-return-any
 
 
-
         additional_dependencies:
           - mypy
           - pandas-stubs
@@ -197,11 +195,10 @@ repos:
         types_or: [jupyter, markdown]
         additional_dependencies: [pylint]
         args:
-          [
-            "--max-line-length=79",
-            "--const-naming-style=any",
-            "--disable=E0401,W0104,R0903",
-          ]
+          - --ignore=no_check*,
+          - --max-line-length=79
+          - --const-naming-style=any
+          - --disable=E0401,W0104,R0903
 
   - repo: https://github.com/pre-commit/mirrors-pylint
     rev: v2.3.1
@@ -212,7 +209,12 @@ repos:
         language: python
         types: [python]
         args:
-          [--max-line-length=79, "--const-naming-style=any", "--disable=E0401,W0104,R0903"]
+          [
+            "--ignore=no_check*",
+            "--max-line-length=79",
+            "--const-naming-style=any",
+            "--disable=E0401,W0104,R0903",
+          ]
         additional_dependencies: [pylint]
 
   - repo: https://github.com/nbQA-dev/nbQA
