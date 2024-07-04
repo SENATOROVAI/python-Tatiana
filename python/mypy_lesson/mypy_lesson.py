@@ -2,7 +2,7 @@
 # Раннее авыявление ошибок, отладка кода
 from __future__ import annotations
 
-x: int = 6
+var_x: int = 6
 
 
 def get_value(value: int) -> int:
@@ -10,7 +10,7 @@ def get_value(value: int) -> int:
     return value + 5
 
 
-print(get_value(x))
+print(get_value(var_x))
 
 num: int = 1
 
@@ -20,6 +20,6 @@ def get_value2(value: int) -> bool:
     return value == 5
 
 
-print(get_value2(x))
+print(get_value2(var_x))
 
 get_value2(5)
