@@ -15,11 +15,11 @@ print(get_value(var_x))
 num: int = 1
 
 
-def get_value2(value: int) -> bool:
+def check_value(value: int) -> bool:
     """Function printing python version."""
     return value == 5
 
 
-print(get_value2(var_x))
+print(check_value(var_x))
 
-get_value2(5)
+check_value(5)
