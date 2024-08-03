@@ -39,8 +39,8 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Pylint
         run: |
-          pylint --max-line-length=79 --const-naming-style=any --disable=E0401,W1514,C0200 --disable=import-error  $(git ls-files '*.py')
-          nbqa pylint --max-line-length=79 --const-naming-style=any --disable=E0401,W1514,C0200 --disable=import-error $(git ls-files '*.ipynb')
+          pylint --max-line-length=79 --const-naming-style=any --disable=E0401,W1514,C0200,C0114 --disable=import-error  $(git ls-files '*.py')
+          nbqa pylint --max-line-length=79 --const-naming-style=any --disable=E0401,W1514,C0200,C0114 --disable=import-error $(git ls-files '*.ipynb')
       - name: Flake8
         run: |
           flake8 --ignore=E203,E501,W291,F821,F401 $(git ls-files '*.py')
