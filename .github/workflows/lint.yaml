@@ -45,7 +45,7 @@ jobs:
         run: |
           flake8 --ignore=E203,E501,W291,F821,F401 $(git ls-files '*.py')
           nbqa flake8 --ignore=E203,E501,W291,F821,F401 $(git ls-files '*.ipynb')
-     
+
       - name: Mypy
         run: |
           mypy --ignore-missing-imports $(git ls-files '*.py')
