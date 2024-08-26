@@ -1,2 +1,0 @@
-print('test for pypy')
-print(8*6)
