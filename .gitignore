@@ -3,3 +3,4 @@ venv
 codeforses.ipynb
 github
 lint.yaml
+no_check_bit_operations(XOR)
