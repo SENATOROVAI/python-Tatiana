@@ -1,4 +1,9 @@
 repos:
+  - repo: https://github.com/PyCQA/docformatter
+    rev: v1.7.5
+    hooks:
+      - id: docformatter
+        args: [--in-place, --wrap-descriptions=79, --style=google]
   - repo: https://github.com/asottile/add-trailing-comma
     rev: v3.1.0
     hooks:
@@ -70,9 +75,7 @@ repos:
         additional_dependencies:
           - tomli
         args:
-
-          - --ignore-regex=^\s*"image\/png":\s.*
-          - --ignore-regex=[A-Za-z0-9+/]{100,}
+          - --ignore-regex=^\s*"image\/(jpeg|png|gif|bmp|tiff)":\s.*
           - --skip=*.js,*.html,*.css,*.svg",*.json,*.png,*.jpg,*.yml,*.yaml
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.8.5
@@ -124,6 +127,9 @@ repos:
           - types-setuptools
 
         args:
+          # - --cache-dir=/dev/null
+          # - --cache-dir=nul
+          # - --no-incremental
           - --non-interactive
           - --install-types
           - --explicit-package-bases
@@ -142,6 +148,7 @@ repos:
           - --warn-unreachable
           - --warn-redundant-casts
           - --warn-return-any
+          - --disallow-any-explicit
 
 
 
@@ -150,6 +157,9 @@ repos:
     hooks:
       - id: mypy
         args:
+          # - --cache-dir=/dev/null
+          # - --cache-dir=nul
+          # - --no-incremental
           - --non-interactive
           - --install-types
           - --explicit-package-bases
@@ -168,6 +178,7 @@ repos:
           - --warn-unreachable
           - --warn-redundant-casts
           - --warn-return-any
+          - --disallow-any-explicit
 
 
         additional_dependencies:
@@ -191,7 +202,7 @@ repos:
         types_or: [jupyter, markdown]
         additional_dependencies: [pylint]
         args:
-          - --ignore=no_check*,
+          - --ignore=no_check*,__init__.py
           - --max-line-length=79
           - --const-naming-style=any
           - --disable=E0401,W0104,R0903
@@ -206,7 +217,7 @@ repos:
         types: [python]
         args:
           [
-            "--ignore=no_check*",
+            "--ignore=no_check*,__init__.py",
             "--max-line-length=79",
             "--const-naming-style=any",
             "--disable=E0401,W0104,R0903",
