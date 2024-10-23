@@ -15,6 +15,5 @@ Nowardays Python is considered to be one of the most popular languages. It is wi
 ### Contact me:
 In case there are any questions or suggestions, do not hesitate to contact me. I am always ready to communicate and I will be glad to receive any feedback.
 
-### Gratitude:
-Thank you for giving a look at my repository!
+print('Hello world')
 
