@@ -46,6 +46,8 @@ jobs:
         nbqa pyupgrade $(git ls-files '*.py' '*.ipynb')
     - name: isort
       run: |
+        isort .
+        nbqa isort .
         isort --diff $(git ls-files '*.py' '*.ipynb')
         nbqa isort --diff $(git ls-files '*.py' '*.ipynb')
     - name: Commit changes
