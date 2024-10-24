@@ -1,4 +1,5 @@
 name: pyright
+
 on:
   push:
     branches:
@@ -13,13 +14,20 @@ on:
   pull_request:
     branches:
       - "**"
+
 jobs:
-  ruff:
+  pyright-check:
     runs-on: ubuntu-latest
     steps:
-    
-    - uses: jakebailey/pyright-action@v1
-      with:
-        version: 1.1.311
-    - run: pip install pyright nbqa
-    - run: nbqa pyright /
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Install Python and nbqa
+      - name: Set up Python environment
+        run: |
+          pip install nbqa pyright
+
+      # Run Pyright via nbqa
+      - name: Run Pyright
+        run: nbqa pyright .
