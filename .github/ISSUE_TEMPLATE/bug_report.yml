@@ -11,8 +11,7 @@ body:
     attributes:
       label: "Repository commit"
       description: >
-        The commit hash for `SenatorovAI` repository. You can get this
-        by running the command `git rev-parse HEAD` locally.
+        The commit hash for `SenatorovAI` repository.
       placeholder: "a0b0f414ae134aa1772d33bb930e5a960f9979e8"
     validations:
       required: true
@@ -26,7 +25,7 @@ body:
 
   - type: textarea
     attributes:
-      label: "Dependencies version (pip freeze)"
+      label: "Скопируйте код ошибки"
       description: >
         Вставьте сюда лог ошибки.
       placeholder: |
