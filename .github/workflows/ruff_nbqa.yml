@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: pip install --user ruff nbqa
-      - run: nbqa ruff check --fix --output-format=github $(git ls-files '*.ipynb') 
+      - run: pip install ruff nbqa
+      - run: nbqa ruff check --fix --output-format=github .
     
 
