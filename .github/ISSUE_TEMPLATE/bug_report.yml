@@ -31,10 +31,7 @@ body:
         This is the output of the command `pip freeze --all`. Note that the
         actual output might be different as compared to the placeholder text.
       placeholder: |
-          {"token":"04084064-6d50-40c1-a6b1-303c78415587","value":{"kind":"begin","title":""}
-          {"token":"04084064-6d50-40c1-a6b1-303c78415587","value":{"kind":"begin","title":""}
-          {"token":"04084064-6d50-40c1-a6b1-303c78415587","value":{"kind":"begin","title":""}
-          {"token":"04084064-6d50-40c1-a6b1-303c78415587","value":{"kind":"begin","title":""}
+          LOG ERROR
         ...
     validations:
       required: true
