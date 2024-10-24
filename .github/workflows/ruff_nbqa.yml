@@ -19,6 +19,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: pip install ruff nbqa
-      - run: nbqa ruff check --fix --output-format=github .
+      - run: nbqa ruff --fix --output-format=github .
     
 
