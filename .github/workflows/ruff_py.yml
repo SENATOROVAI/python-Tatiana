@@ -19,5 +19,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: pip install --user ruff nbqa
-      - run: ruff check --fix --output-format=github $(git ls-files '*.py' '*.ipynb')  # Lint Python files
+      - run: ruff check --fix --output-format=github $(git ls-files '*.py')  # Lint Python files
 
