@@ -1,4 +1,4 @@
-name: ruff
+name: ruff_nbqa
 on:
   push:
     branches:
