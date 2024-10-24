@@ -1,4 +1,3 @@
-# https://beta.ruff.rs
 name: ruff
 on:
   push:
@@ -19,5 +18,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: pip install --user ruff
-      - run: ruff check --output-format=github .
+      - run: pip install --user ruff nbqa
+      - run: ruff check --output-format=github .  # Lint Python files
+      - run: nbqa ruff . --output-format=github  # Lint Jupyter notebooks
