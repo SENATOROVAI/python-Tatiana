@@ -1,3 +1,23 @@
-- uses: jakebailey/pyright-action@v1
-  with:
-    version: 1.1.xxx # Optional (if you want to pin the version)
+name: ruff
+on:
+  push:
+    branches:
+      - "**"
+  schedule:
+    - cron: "0 0 * * *" # Run every day
+  workflow_dispatch:
+  create:
+  delete:
+  release:
+  issues:
+  pull_request:
+    branches:
+      - "**"
+jobs:
+  ruff:
+    runs-on: ubuntu-latest
+    steps:
+    
+    - uses: jakebailey/pyright-action@v1
+      with:
+        version: 1.1.xxx # Optional (if you want to pin the version)
