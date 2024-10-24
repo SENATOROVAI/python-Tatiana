@@ -28,8 +28,7 @@ body:
     attributes:
       label: "Dependencies version (pip freeze)"
       description: >
-        This is the output of the command `pip freeze --all`. Note that the
-        actual output might be different as compared to the placeholder text.
+        Вставьте сюда лог ошибки.
       placeholder: |
         LOG ERROR
         ...
