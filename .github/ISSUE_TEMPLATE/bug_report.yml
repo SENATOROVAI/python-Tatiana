@@ -16,13 +16,6 @@ body:
     validations:
       required: true
 
-  - type: input
-    attributes:
-      label: "Python version (python --version)"
-      placeholder: "Python 3.10.7"
-    validations:
-      required: true
-
   - type: textarea
     attributes:
       label: "Скопируйте код ошибки"
