@@ -31,13 +31,10 @@ body:
         This is the output of the command `pip freeze --all`. Note that the
         actual output might be different as compared to the placeholder text.
       placeholder: |
-          13:45:06.2572                      jsonrpc-input-stream[    2]:  MESSAGE: <<< {"jsonrpc":"2.0","id":3,"method":"window/workDoneProgress/create","params":{"token":"04084064-6d50-40c1-a6b1-303c78415587"}}  (<-- From the Server)
-          13:45:06.2572                     jsonrpc-output-stream[    2]:  MESSAGE: >>> {'result': <@mv nothing>, 'jsonrpc': <'2.0'>, 'id': <int64 3>} (From the IDE)
-          13:45:06.2583                      jsonrpc-input-stream[    2]:  MESSAGE: <<< {"jsonrpc":"2.0","method":"$/progress","params":{"token":"04084064-6d50-40c1-a6b1-303c78415587","value":{"kind":"begin","title":""}}}  (<-- From the Server)
-          13:45:06.2592                      jsonrpc-input-stream[    2]:  MESSAGE: <<< {"jsonrpc":"2.0","method":"$/progress","params":{"token":"04084064-6d50-40c1-a6b1-303c78415587","value":{"kind":"report","message":"1 file to analyze"}}}  (<-- From the Server)
-          13:45:06.3723                      jsonrpc-input-stream[    2]:  MESSAGE: <<< {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///home/user/Projects/pyright-python/setup.py","version":2,"diagnostics":[]}}  (<-- From the Server)
-          13:45:06.3724                      jsonrpc-input-stream[    2]:  MESSAGE: <<< {"jsonrpc":"2.0","method":"$/progress","params":{"token":"04084064-6d50-40c1-a6b1-303c78415587","value":{"kind":"end"}}} (<-- From the Server)
-          13:45:08.4998                           ide-lsp-service[    2]:  MESSAGE: Language server “pyright-python-langserver” exited (<-- From the IDE)
+          {"token":"04084064-6d50-40c1-a6b1-303c78415587","value":{"kind":"begin","title":""}}}
+          {"token":"04084064-6d50-40c1-a6b1-303c78415587","value":{"kind":"begin","title":""}}}
+          {"token":"04084064-6d50-40c1-a6b1-303c78415587","value":{"kind":"begin","title":""}}}
+          {"token":"04084064-6d50-40c1-a6b1-303c78415587","value":{"kind":"begin","title":""}}}
         ...
     validations:
       required: true
