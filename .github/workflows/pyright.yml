@@ -22,4 +22,4 @@ jobs:
       with:
         version: 1.1.311
     - run: pip install pyright nbqa
-    - run: nbqa pyright $(git ls-files '*.ipynb')
+    - run: nbqa pyright .
