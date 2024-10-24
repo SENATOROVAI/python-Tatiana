@@ -1,4 +1,4 @@
-name: ruff
+name: pyright
 on:
   push:
     branches:
@@ -20,4 +20,4 @@ jobs:
     
     - uses: jakebailey/pyright-action@v1
       with:
-        version: 1.1.xxx # Optional (if you want to pin the version)
+        pylance-version: latest-release
