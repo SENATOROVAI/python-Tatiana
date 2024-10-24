@@ -39,7 +39,7 @@ jobs:
         pip install "nbqa[toolchain]" pylint isort "black[jupyter]" mypy pyupgrade flake8-variables-names pep8-naming flake8-functions-names pandas-stubs git+https://github.com/numpy/numpy-stubs mypy-extensions types-requests types-PyYAML types-setuptools
     - name: Black
       run: |
-        autopep8 --in-place --aggressive --aggressive $(git ls-files '*.py' '*.ipynb')
+        # autopep8 --in-place --aggressive --aggressive $(git ls-files '*.py' '*.ipynb')
         ruff  check --fix --unsafe-fixes $(git ls-files '*.py' '*.ipynb')
         black --line-length=79 $(git ls-files '*.py' '*.ipynb')
         nbqa black --line-length=79 $(git ls-files '*.py' '*.ipynb')
