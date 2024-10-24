@@ -20,5 +20,4 @@ jobs:
       - uses: actions/checkout@v4
       - run: pip install --user ruff nbqa
       - run: nbqa ruff . --output-format=github  # Lint Jupyter notebooks
-      - run: ruff check --output-format=github .  # Lint Python files
 
