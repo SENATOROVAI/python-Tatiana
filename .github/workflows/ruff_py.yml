@@ -18,6 +18,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: pip install --user ruff nbqa
+      - run: pip install --user ruff 
       - run: ruff check --fix --output-format=github $(git ls-files '*.py')  # Lint Python files
 
