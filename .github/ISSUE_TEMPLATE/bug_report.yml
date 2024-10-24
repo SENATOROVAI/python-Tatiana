@@ -31,7 +31,7 @@ body:
         This is the output of the command `pip freeze --all`. Note that the
         actual output might be different as compared to the placeholder text.
       placeholder: |
-          LOG ERROR
+        LOG ERROR
         ...
     validations:
       required: true
