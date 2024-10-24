@@ -70,5 +70,3 @@ jobs:
       run: |
         flake8 --ignore=E203,E501,W291,F821,F401,E402,E121 $(git ls-files '*.py' '*.ipynb')
         nbqa flake8 --ignore=E203,E501,W291,F821,F401,E402,E121 $(git ls-files '*.py' '*.ipynb')
-
-        
