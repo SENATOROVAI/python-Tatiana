@@ -30,7 +30,6 @@
     * [Chapter 9 Input Output Files Exception Handling](python/Made-Easy/chapter_9_input_output_files_exception_handling.ipynb)
     * [Chapter 9 Input Output Files Exception Handlingbozrot9D](python/Made-Easy/chapter_9_input_output_files_exception_handlingbozrot9d.py)
     * [Сhapter 13 Modules And Packages](python/Made-Easy/сhapter_13_modules_and_packages.ipynb)
-    * [Сhapter 13 Modules And Packages5Gkj48Wo](python/Made-Easy/сhapter_13_modules_and_packages5gkj48wo.py)
     * [Сhapter 5 Сontrol Flow Statements](python/Made-Easy/сhapter_5_сontrol_flow_statements.ipynb)
   * Oop
     * [Oop Conspect Mine](python/OOP/OOP_conspect_mine.ipynb)
@@ -38,7 +37,6 @@
     * [Oop 1 Introduction](python/OOP/oop_1_introduction.ipynb)
     * [Oop 1 Introductionrczv5Ycv](python/OOP/oop_1_introductionrczv5ycv.py)
     * [Oop 2 Class Attributes Functions](python/OOP/oop_2_class_attributes_functions.ipynb)
-    * [Oop 2 Class Attributes Functionspcwkqt0T](python/OOP/oop_2_class_attributes_functionspcwkqt0t.py)
     * [Oop 3 Callable-Objects Instances](python/OOP/oop_3_callable-objects_instances.ipynb)
     * [Oop 3 Callable-Objects Instances3Z83Rxyz](python/OOP/oop_3_callable-objects_instances3z83rxyz.py)
     * [Oop 4](python/OOP/oop_4.ipynb)
