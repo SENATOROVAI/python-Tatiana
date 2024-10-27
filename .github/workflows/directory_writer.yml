@@ -1,9 +1,9 @@
-name: directory_writer
+name: "SENATOROV"
 permissions:
   contents: write
 on: [push]
 jobs:
-  build:
+  docs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

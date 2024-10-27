@@ -1,4 +1,6 @@
-name: ruff_nbqa
+name: "SENATOROV"
+permissions:
+  contents: write
 on:
   push:
     branches:
@@ -18,7 +20,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: pip install ruff nbqa
-      - run: nbqa ruff --fix --output-format=github .
-    
-
+      - run: pip install --user ruff
+      - run: ruff check --fix --output-format=github $(git ls-files '*.py' '*.ipynb')  # Lint Python files
