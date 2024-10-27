@@ -7,7 +7,6 @@
     * [Combinq7Qh1I7Y](math/combin/combinq7qh1i7y.py)
   * Set Theory
     * [Sets](math/set_theory/Sets.ipynb)
-    * [Sets8Mnvgl51](math/set_theory/Sets8mnvgl51.py)
     * [Set Theory](math/set_theory/set_theory.ipynb)
     * [Set Theory3Fwygcya](math/set_theory/set_theory3fwygcya.py)
 
@@ -20,7 +19,6 @@
     * [Chapter 3 Python Basics](python/Made-Easy/chapter_3_python_basics.ipynb)
     * [Chapter 3 Python Basics4U4Yx Db](python/Made-Easy/chapter_3_python_basics4u4yx_db.py)
     * [Chapter 4 Objects And Operators In Python](python/Made-Easy/chapter_4_objects_and_operators_in_python.ipynb)
-    * [Chapter 4 Objects And Operators In Pythonxsa66Zye](python/Made-Easy/chapter_4_objects_and_operators_in_pythonxsa66zye.py)
     * [Chapter 6 Functions](python/Made-Easy/chapter_6_functions.ipynb)
     * [Chapter 6 Functionsz3Gm74N0](python/Made-Easy/chapter_6_functionsz3gm74n0.py)
     * [Chapter 7 Pictures With Circles](python/Made-Easy/chapter_7_pictures_with_circles.ipynb)
