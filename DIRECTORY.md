@@ -13,15 +13,6 @@
     * [Chapter 9 Input Output Files Exception Handling](python/Made-Easy/chapter_9_input_output_files_exception_handling.ipynb)
     * [Сhapter 13 Modules And Packages](python/Made-Easy/сhapter_13_modules_and_packages.ipynb)
     * [Сhapter 5 Сontrol Flow Statements](python/Made-Easy/сhapter_5_сontrol_flow_statements.ipynb)
-  * Oop
-    * [Oop Conspect Mine](python/OOP/OOP_conspect_mine.ipynb)
-    * [Oop 1 Introduction](python/OOP/oop_1_introduction.ipynb)
-    * [Oop 2 Class Attributes Functions](python/OOP/oop_2_class_attributes_functions.ipynb)
-    * [Oop 3 Callable-Objects Instances](python/OOP/oop_3_callable-objects_instances.ipynb)
-    * [Oop 4](python/OOP/oop_4.ipynb)
-    * [Senatorov Oop](python/OOP/senatorov_oop.ipynb)
-  * Mypy Lesson
-    * [Mypy Lesson](python/mypy_lesson/mypy_lesson.py)
   * Python
     * [Monte Carlo](python/python/Monte_carlo.ipynb)
     * [Lesson 01-03](python/python/lesson_01-03.ipynb)
