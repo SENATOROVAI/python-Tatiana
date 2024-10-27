@@ -32,7 +32,6 @@
     * [Сhapter 13 Modules And Packages](python/Made-Easy/сhapter_13_modules_and_packages.ipynb)
     * [Сhapter 13 Modules And Packages5Gkj48Wo](python/Made-Easy/сhapter_13_modules_and_packages5gkj48wo.py)
     * [Сhapter 5 Сontrol Flow Statements](python/Made-Easy/сhapter_5_сontrol_flow_statements.ipynb)
-    * [Сhapter 5 Сontrol Flow Statementsr5Psdhj7](python/Made-Easy/сhapter_5_сontrol_flow_statementsr5psdhj7.py)
   * Oop
     * [Oop Conspect Mine](python/OOP/OOP_conspect_mine.ipynb)
     * [Oop Conspect Minem613Oyuu](python/OOP/OOP_conspect_minem613oyuu.py)
@@ -50,7 +49,6 @@
     * [Mypy Lesson](python/mypy_lesson/mypy_lesson.py)
   * Python
     * [Monte Carlo](python/python/Monte_carlo.ipynb)
-    * [Monte Carlo04Vcqkly](python/python/Monte_carlo04vcqkly.py)
     * [Lesson 01-03](python/python/lesson_01-03.ipynb)
     * [Lesson 04](python/python/lesson_04.ipynb)
     * [Lesson 05](python/python/lesson_05.ipynb)
