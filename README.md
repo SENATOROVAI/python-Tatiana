@@ -8,7 +8,6 @@
   * Set Theory
     * [Sets](math/set_theory/Sets.ipynb)
     * [Set Theory](math/set_theory/set_theory.ipynb)
-    * [Set Theory3Fwygcya](math/set_theory/set_theory3fwygcya.py)
 
 ## Python
   * Made-Easy
