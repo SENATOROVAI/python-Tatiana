@@ -19,7 +19,6 @@
     * [Chapter 3 Python Basics4U4Yx Db](python/Made-Easy/chapter_3_python_basics4u4yx_db.py)
     * [Chapter 4 Objects And Operators In Python](python/Made-Easy/chapter_4_objects_and_operators_in_python.ipynb)
     * [Chapter 6 Functions](python/Made-Easy/chapter_6_functions.ipynb)
-    * [Chapter 6 Functionsz3Gm74N0](python/Made-Easy/chapter_6_functionsz3gm74n0.py)
     * [Chapter 7 Pictures With Circles](python/Made-Easy/chapter_7_pictures_with_circles.ipynb)
     * [Chapter 7 Pictures With Circlesb1Xzkh7K](python/Made-Easy/chapter_7_pictures_with_circlesb1xzkh7k.py)
     * [Chapter 8 Data Structure And Sequence](python/Made-Easy/chapter_8_data_structure_and_sequence.ipynb)
