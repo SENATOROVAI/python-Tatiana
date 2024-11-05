@@ -4,6 +4,7 @@
 ## Python
   * Made-Easy
     * [Chapter 13 Modules And Packages Python Made Easy](python/Made-Easy/chapter_13_modules_and_packages_python_made_easy.ipynb)
+    * [Chapter 13 Modules And Packages Python Made Easy](python/Made-Easy/chapter_13_modules_and_packages_python_made_easy.py)
     * [Chapter 1 To ](python/Made-Easy/chapter_1_to_.ipynb)
     * [Chapter 1 To ](python/Made-Easy/chapter_1_to_.py)
     * [Chapter 2 Python Basics](python/Made-Easy/chapter_2_python_basics.ipynb)
