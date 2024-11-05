@@ -66,8 +66,8 @@ else:
 # +
 name: str = "Petin Kate"
 basic_salary: int = int(input(f"Salary of {name}: "))
-city_class: str = input(f"""{name} lives in a
-city class (a/b/c): """)
+city_class: str = input(f"{name} lives in a
+city class (a/b/c): ")
 
 if city_class in ("a", "A"):
     hra = (basic_salary * 30) / 100
