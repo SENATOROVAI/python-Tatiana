@@ -332,8 +332,8 @@ def factorial(num: int) -> int:
     """
     fact = 1
 
-    for i_ in range(2, num + 1):
-        fact *= i_
+    for num_0 in range(2, num + 1):
+        fact *= num_0
 
     return fact
 
@@ -404,9 +404,9 @@ def int_to_roman(num: int) -> str:
     ]
     roman_num: str = ""
 
-    for i_, value in enumerate(val_decimal):
+    for num_1, value in enumerate(val_decimal):
         while num >= value:
-            roman_num += syms[i_]
+            roman_num += syms[num_1]
             num -= value
 
     return roman_num
@@ -427,9 +427,9 @@ def multiplication_table(num: int) -> None:
 
     Аргументы:     num (int): Число для создания таблицы умножения.
     """
-    for i_ in range(1, 11):
-        res = num * i_
-        print(f"{num} * {i_} = {res}")
+    for num_2 in range(1, 11):
+        res = num * num_2
+        print(f"{num} * {num_2} = {res}")
 
 
 def multiply(num3: int) -> list[int]:
@@ -467,8 +467,8 @@ def reversed_list(lst: list[int]) -> list[int]:
         list: Перевернутый список.
     """
     lst_rev = []
-    for i_ in range(len(lst) - 1, -1, -1):
-        lst_rev.append(lst[i_])
+    for num_3 in range(len(lst) - 1, -1, -1):
+        lst_rev.append(lst[num_3])
     return lst_rev
 
 
