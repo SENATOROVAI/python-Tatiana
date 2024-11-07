@@ -37,9 +37,15 @@ jobs:
       run: |
         black --diff --line-length=79 $(git ls-files '*.py' '*.ipynb')
         nbqa black --fiff --line-length=79 $(git ls-files '*.py' '*.ipynb')
-        
-
-
+    - name: commit  
+      run: |
+        git config --local user.name "github-actions"
+        git config --local user.email "actions@github.com"
+        git add .
+        git commit -m "ВНИМАНИЕ! КОД ОТФОРМАТИРОВАН ПО PEP8 / SENATOROV" || echo "No changes to commit"
+        git push origin main --force
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
      
