@@ -14,6 +14,13 @@
 
 """Module on basics of python."""
 
+from typing import Callable
+
+import numpy as np
+import scipy as sc
+from scipy import optimize
+from scipy.optimize import OptimizeResult
+
 # # Введение в Python
 # **Что такое Python?**
 #
