@@ -11,6 +11,7 @@
 #     language: python
 #     name: python3
 # ---
+
 """Chapter 5."""
 
 #
@@ -65,10 +66,8 @@ else:
 # +
 name: str = "Petin Kate"
 basic_salary: int = int(input(f"Salary of {name}: "))
-city_class: str = input(
-    f"""{name} lives in a
-city class (a/b/c): """,
-)
+city_class: str = input(f"{name} lives in a 
+city class (a/b/c): ")
 
 if city_class in ("a", "A"):
     hra = (basic_salary * 30) / 100
@@ -363,7 +362,6 @@ else:
 # ли он прямоугольным (один из углов должен составлять 90°).
 
 # Проверка на прямоугольный треугольник
-
 
 # +
 def triangle(ang_a: float, ang_b: float, ang_c: float) -> str:

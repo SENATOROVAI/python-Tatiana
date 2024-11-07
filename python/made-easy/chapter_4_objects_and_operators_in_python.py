@@ -11,6 +11,7 @@
 #     language: python
 #     name: python3
 # ---
+
 """Module on variables."""
 
 import keyword
@@ -198,6 +199,7 @@ print(id(sample), type(sample))
 # руктор bytes ().<br>
 #     * Кроме того, байтовые строки можно декодировать в строки с по­<br>
 # мощью метода decode ().
+
 b"nilabh"
 
 print(ord("nilabh"[3]), ord("a"), chr(97))
@@ -553,9 +555,9 @@ print(ord("a"))  # Output: 97
 
 # 9
 
-
 def my_function(var_a: int, var_b: int) -> int:
-    """Возвращает сумму двух чисел a и b.
+    """
+    Возвращает сумму двух чисел a и b.
 
     Args:
         var_a (int): Первое число
