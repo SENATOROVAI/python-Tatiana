@@ -11,6 +11,7 @@
 #     language: python
 #     name: python3
 # ---
+
 """Module on strings,  tuples, dictionaries."""
 
 import math
@@ -519,8 +520,8 @@ for _ in range(3):
     phonebook[name] = phone_number
 
 search_name = input("Введите имя: ")
-print(f"""Номер телефона {search_name}:
-       {phonebook.get(search_name, 'Не найдено')}""")
+print(f"Номер телефона {search_name}:
+       {phonebook.get(search_name, 'Не найдено')}")
 
 
 #
