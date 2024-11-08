@@ -6,5 +6,4 @@
 
 [tool.jupytext.formats]
 formats = "ipynb,py:percent"
-default_cell_markers = "'''", "'''"
 cell_metadata_filter = "-all"
