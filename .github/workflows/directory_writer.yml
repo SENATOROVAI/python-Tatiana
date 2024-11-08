@@ -14,6 +14,10 @@ jobs:
           python-version: 3.x
       - name: Set script executable permission
         run: chmod +x scripts/build_directory_md.py
+        
+      - name: Set script executable permission
+        run: chmod +x remove_base64_images.py     
+        
       - name: Write DIRECTORY.md and README.md
         run: |
           scripts/build_directory_md.py 2>&1 | tee DIRECTORY.md
