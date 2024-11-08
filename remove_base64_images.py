@@ -5,7 +5,7 @@ def remove_base64_images_from_file(py_file):
     with open(py_file, 'r') as f:
         content = f.read()
     
-    # Regular expression to match base64 image URIs in the form of: ![image](data:image/png;base64,...)
+    # Regular expression to match base64 image URIs in the form of: 
     content_cleaned = re.sub(r'!\[.*?\]\(data:image.*?;base64,.*?\)', '', content)
     
     with open(py_file, 'w') as f:
