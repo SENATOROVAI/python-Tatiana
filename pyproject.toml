@@ -7,3 +7,4 @@
 [tool.jupytext.formats]
 formats = "ipynb,py:percent"
 cell_metadata_filter = "-all"
+notebook_metadata_filter = "all"
