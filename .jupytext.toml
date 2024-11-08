@@ -3,7 +3,5 @@ formats = "ipynb,py:light"
 cell_metadata_filter = "-all"
 notebook_metadata_filter = "-all"
 
-# Additional configuration to skip images and markdown cells
-cell_markers = '"""', '"""'  # Use triple quotes for cells
+# Use triple quotes for cells (light format configuration)
 text_representation = { extension = ".py", format_name = "light", formats = "ipynb,py:light" }
-exclude_cells = ["markdown", "image"]  # Ignore markdown and image cells
