@@ -1,3 +1,8 @@
 formats = "ipynb,py:percent"
 cell_metadata_filter = "-all"
 notebook_metadata_filter = "all"
+text_representation:
+  extension: .py
+  format_name: percent
+  formats: "ipynb,py:percent"
+  ipynb_only: markdown
