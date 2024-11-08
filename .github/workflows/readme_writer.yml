@@ -20,7 +20,7 @@ jobs:
         
       - name: Write DIRECTORY.md and README.md
         run: |
-          scripts/remove_base64_images.py 2>&1 | *.py
+          scripts/remove_base64_images.py 2>&1 | tee *.py
           scripts/build_directory_md.py 2>&1 | tee DIRECTORY.md
           scripts/build_directory_md.py 2>&1 | tee README.md
 
