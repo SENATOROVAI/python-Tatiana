@@ -18,4 +18,5 @@
     * [Chapter 6 Functions](python/made-easy/chapter_6_functions.ipynb)
     * [Chapter 6 Functions](python/made-easy/chapter_6_functions.py)
     * [Chapter 8 Data Structure And Sequence](python/made-easy/chapter_8_data_structure_and_sequence.ipynb)
-    * [Chapter 8 Data Structure And Sequence](python/made-easy/chapter_8_data_structure_and_sequence.py)
+
+## [Remove Base64 Images](/remove_base64_images.py)
