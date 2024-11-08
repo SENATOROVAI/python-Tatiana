@@ -19,7 +19,7 @@ on:
   pull_request_review_comment:
 
 jobs:
-  convert_notebooks:
+  ipynb_to_py:
     runs-on: ubuntu-latest
 
     steps:
@@ -37,6 +37,8 @@ jobs:
 
       - name: Remove Base64 Image Data from .py files
         run: |
+          cd ..
+          cd scripts
           python remove_base64_images.py
           
       - name: Commit and push changes
