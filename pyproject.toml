@@ -1,4 +1,4 @@
 [tool.jupytext]
-formats = "ipynb,py:light" 
+formats = "ipynb,py:light"
 cell_metadata_filter = "-all"
-notebook_metadata_filter = "-all" 
+notebook_metadata_filter = "-all"
