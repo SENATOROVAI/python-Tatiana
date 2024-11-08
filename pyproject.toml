@@ -1,2 +1,6 @@
 [tool.jupytext]
-formats = "ipynb,py:percent"
+formats = "ipynb,py:light" 
+cell_metadata_filter = "-all"
+notebook_metadata_filter = "-all" 
+text_representation = { extension = ".py", format_name = "light", formats = "ipynb,py:light" }
+ipynb_only = "markdown"
