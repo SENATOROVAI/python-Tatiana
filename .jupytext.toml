@@ -1,7 +1,0 @@
-# .jupytext.toml
-formats = "ipynb,py:light"
-cell_metadata_filter = "-all"
-notebook_metadata_filter = "-all"
-
-# Use triple quotes for cells (light format configuration)
-text_representation = { extension = ".py", format_name = "light", formats = "ipynb,py:light" }
