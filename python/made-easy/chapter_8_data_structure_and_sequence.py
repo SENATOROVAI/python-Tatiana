@@ -417,7 +417,6 @@ print(list_d)  # [0, 1, 2]
 
 # д)
 
-
 # +
 def create_coordinate_pairs() -> list[tuple[int, int]]:
     """Создание списка координатных пар."""
@@ -434,7 +433,6 @@ print(list_f)  # [[4], [5], [6]]
 
 
 # ж)
-
 
 # +
 # 38
@@ -480,7 +478,6 @@ print(squared_reversed)
 #
 # 6. Функция для проверки отсортированного списка
 
-
 def is_sorted_list(lst: list[int]) -> bool:
     """Проверяет, отсортирован ли список.
 
@@ -510,14 +507,13 @@ for _ in range(3):
 
 search_name = input("Введите имя: ")
 print(
-    f"""Номер телефона {search_name}:
-       {phonebook.get(search_name, 'Не найдено')}""",
+    f"""Номер телефона {search_name}: 
+       {phonebook.get(search_name, 'Не найдено')}"""
 )
 
 
 #
 # 8. Функция для удаления дубликатов из списка
-
 
 def skip_duplicates(lst: list[int]) -> list[int]:
     """Удаляет дубликаты из списка.
@@ -540,7 +536,6 @@ print(unique_list)  # [1, 2, 3, 4]
 
 #
 # 9. Функция для вычисления произведения элементов списка
-
 
 def product_of_list(lst: list[int]) -> int:
     """Вычисляет произведение элементов списка.
