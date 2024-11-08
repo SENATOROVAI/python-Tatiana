@@ -1,6 +1,17 @@
 [tool.jupytext]
-formats = "ipynb,py:light" 
-cell_metadata_filter = "-all"
-notebook_metadata_filter = "-all" 
-text_representation = { extension = ".py", format_name = "light", formats = "ipynb,py:light" }
-ipynb_only = "markdown"
+# Specify the formats for conversion
+formats = "ipynb,py:light"            # Converts between .ipynb and .py in light format
+
+# Define metadata handling for a clean .py output
+cell_metadata_filter = "-all"         # Exclude all cell metadata in the output
+notebook_metadata_filter = "-all"     # Exclude all notebook-level metadata
+
+# Customize the text representation
+text_representation = { 
+    extension = ".py", 
+    format_name = "light",            # Use light format for code readability
+    formats = "ipynb,py:light"
+}
+
+# Option to exclude specific content types in the .py file
+ipynb_only = "markdown"               # Exclude markdown cells in .py output
