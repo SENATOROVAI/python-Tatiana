@@ -45,7 +45,3 @@ jobs:
           git add .
           git commit -m "Convert notebooks to Python scripts"
           git push
-
-
-
-          

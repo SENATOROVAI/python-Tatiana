@@ -28,6 +28,9 @@ repos:
     rev: "24.10.0"
     hooks:
       - id: black
+        entry: black
+        args:
+          - --quiet
 
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.9.0
@@ -40,6 +43,9 @@ repos:
         require_serial: true
         types_or: [jupyter, markdown]
         additional_dependencies: [black]
+        args:
+          - --quiet
+
   - repo: https://github.com/asottile/pyupgrade
     rev: "v3.19.0"
     hooks:
