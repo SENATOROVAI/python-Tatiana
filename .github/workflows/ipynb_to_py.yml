@@ -37,9 +37,7 @@ jobs:
 
       - name: Remove Base64 Image Data from .py files
         run: |
-          cd ..
-          cd scripts
-          python remove_base64_images.py
+          python /scripts/remove_base64_images.py
           
       - name: Commit and push changes
         env:
