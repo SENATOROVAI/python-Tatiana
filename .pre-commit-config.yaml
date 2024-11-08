@@ -1,4 +1,20 @@
 repos:
+  - repo: https://github.com/mwouts/jupytext
+    rev: "v1.16.4b"
+    hooks:
+     - id: jupytext
+       entry: jupytext
+       language: python
+       types: [jupyter]
+       args:
+         - --from=ipynb
+         - --to=py:percent
+         - --opt=notebook_metadata_filter=-kernelspec
+         - --set-formats=ipynb,py:percent
+         - --quiet
+         - --sync
+         - --warn-only
+       exclude: '.*\.md$'
   - repo: https://github.com/PyCQA/docformatter
     rev: "eb1df347edd128b30cd3368dddc3aa65edcfac38"
     hooks:
@@ -12,26 +28,7 @@ repos:
     rev: "24.10.0"
     hooks:
       - id: black
-  - repo: https://github.com/mwouts/jupytext
-    rev: v1.14.1
-    hooks:
-     - id: jupytext
-       entry: jupytext --to py *.ipynb
-       language: python
-       types: [jupyter]
-       args:
-         - --from=ipynb
-         - --to=py:percent
-         - --pipe=black
-         - --pipe=isort - --profile black --filter-files
-         - --opt=notebook_metadata_filter=-kernelspec
-         - --sync
-         - --pre-commit
-         - --paired-paths
-       additional_dependencies:
-         - black==22.10.0
-         - isort==5.11.5
-       exclude: '.*\.md$'
+
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.9.0
     hooks:
@@ -52,9 +49,10 @@ repos:
     rev: "5.13.2"
     hooks:
       - id: isort
+        entry: isort
         args:
-          - --check
           - --float-to-top
+
   - repo: https://github.com/nbQA-dev/nbQA
     rev: "1.9.0"
     hooks:
@@ -85,7 +83,6 @@ repos:
         types_or: [jupyter, markdown]
         additional_dependencies: [isort]
         args:
-          - --check
           - --float-to-top
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
