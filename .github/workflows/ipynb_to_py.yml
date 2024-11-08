@@ -34,10 +34,6 @@ jobs:
       - name: Convert .ipynb to .py
         run: |
           jupytext --to py $(git ls-files '*.ipynb')
-
-      - name: Remove Base64 Image Data from .py files
-        run: |
-          python /scripts/remove_base64_images.py
           
       - name: Commit and push changes
         env:
