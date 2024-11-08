@@ -19,7 +19,7 @@ on:
   pull_request_review_comment:
 
 jobs:
-  ipynb_to_py:
+  convert_notebooks:
     runs-on: ubuntu-latest
 
     steps:
@@ -34,7 +34,6 @@ jobs:
       - name: Convert .ipynb to .py
         run: |
           jupytext --to py $(git ls-files '*.ipynb')
-          
       - name: Commit and push changes
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -44,5 +43,8 @@ jobs:
           git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}
           git pull
           git add .
-          git commit -m "Convert notebooks to Python scripts"
-          git push
+          git diff --quiet || (git commit -m "Convert notebooks to Python scripts" && git push)
+
+
+
+          

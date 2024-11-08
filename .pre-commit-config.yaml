@@ -8,9 +8,8 @@ repos:
        types: [jupyter]
        args:
          - --from=ipynb
-         - --to=py:percent
-         - --opt=notebook_metadata_filter=-kernelspec
-         - --set-formats=ipynb,py:percent
+         - --to=py:light
+         - --set-formats=ipynb,py:light
          - --quiet
          - --sync
          - --warn-only
@@ -28,9 +27,6 @@ repos:
     rev: "24.10.0"
     hooks:
       - id: black
-        entry: black
-        args:
-          - --quiet
 
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.9.0
@@ -43,9 +39,6 @@ repos:
         require_serial: true
         types_or: [jupyter, markdown]
         additional_dependencies: [black]
-        args:
-          - --quiet
-
   - repo: https://github.com/asottile/pyupgrade
     rev: "v3.19.0"
     hooks:
@@ -90,16 +83,6 @@ repos:
         additional_dependencies: [isort]
         args:
           - --float-to-top
-
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: "v5.0.0"
-    hooks:
-      - id: trailing-whitespace
-      - id: end-of-file-fixer
-      - id: check-yaml
-      - id: debug-statements
-      - id: name-tests-test
-      - id: requirements-txt-fixer
 
   - repo: https://github.com/codespell-project/codespell
     rev: v2.3.0

@@ -14,16 +14,10 @@ jobs:
           python-version: 3.x
       - name: Set script executable permission
         run: chmod +x scripts/build_directory_md.py
-        
-      - name: Set script executable permission
-        run: chmod +x scripts/remove_base64_images.py     
-        
       - name: Write DIRECTORY.md and README.md
         run: |
-          scripts/remove_base64_images.py 2>&1 | tee *.py
           scripts/build_directory_md.py 2>&1 | tee DIRECTORY.md
           scripts/build_directory_md.py 2>&1 | tee README.md
-
           git config --global user.name "$GITHUB_ACTOR"
           git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
