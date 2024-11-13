@@ -1,4 +1,4 @@
-"""Module on conspect of the book CHISTYI COD."""
+"""Module on conspect of the book CHISTYI COD ."""
 
 #
 # Раздел [«Naming Conventions»](https://www.python.org/dev/peps/pep-0008/#naming-conventions)
