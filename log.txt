@@ -42,3 +42,13 @@ Discussion-> Accomplishments
 
 28.06.24
 Матожидание ДСВ - среднее значение при многократном повторении испытаний.Дисперсия дискретной случайной величины.показывает насколько далеко «разбросаны» данные относительно среднего значения. Дисперсия – это математическое ожидание квадратов отклонений случайной величины от её математического ожидания.
+
+
+14.11.2024
+conda create -n senatorov python=3.9 -  создание окружение
+conda activate senatorov - активация
+conda deactivate - деактивация
+conda install pandas numpy - устанвка пакета
+conda remove -n senatorov --all - удаление виртуального окружение
+Выгрузка зависимости (dependencies)
+conda env export > env.yml / pip - requirements.txt - выгрузка (yml - conda, pip - lkz)
