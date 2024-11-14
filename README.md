@@ -18,5 +18,7 @@
     * [Chapter 6 Functions](python/made-easy/chapter_6_functions.ipynb)
     * [Chapter 6 Functions](python/made-easy/chapter_6_functions.py)
     * [Chapter 8 Data Structure And Sequence](python/made-easy/chapter_8_data_structure_and_sequence.ipynb)
-
-## [Remove Base64 Images](/remove_base64_images.py)
+  * Probability
+    * [Monte Carlo](python/probability/monte_carlo.ipynb)
+    * [Monte Carlo](python/probability/monte_carlo.py)
+    * [Probability 1710](python/probability/probability_1710.py)
