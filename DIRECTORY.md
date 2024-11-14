@@ -2,6 +2,8 @@
 ## [Help](/help.py)
 
 ## Python
+  * [Clean Code Conspect](python/clean_code_conspect.ipynb)
+  * [Clean Code Conspect](python/clean_code_conspect.py)
   * Made-Easy
     * [Chapter 13 Modules And Packages Python Made Easy](python/made-easy/chapter_13_modules_and_packages_python_made_easy.ipynb)
     * [Chapter 13 Modules And Packages Python Made Easy](python/made-easy/chapter_13_modules_and_packages_python_made_easy.py)
@@ -18,6 +20,7 @@
     * [Chapter 6 Functions](python/made-easy/chapter_6_functions.ipynb)
     * [Chapter 6 Functions](python/made-easy/chapter_6_functions.py)
     * [Chapter 8 Data Structure And Sequence](python/made-easy/chapter_8_data_structure_and_sequence.ipynb)
+    * [Chapter 8 Data Structure And Sequence](python/made-easy/chapter_8_data_structure_and_sequence.py)
   * Probability
     * [Monte Carlo](python/probability/monte_carlo.ipynb)
     * [Monte Carlo](python/probability/monte_carlo.py)

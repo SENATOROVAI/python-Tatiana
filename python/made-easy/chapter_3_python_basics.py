@@ -140,8 +140,10 @@ while variable_a1 < 15:
 letter_a: int = 5
 letter_b: int = 6
 product_ab: int = 5 * 6
-print(f"when {letter_a} is multiplied by {letter_b}, 
-the result is {product_ab}")
+print(
+    f"""when {letter_a} is multiplied by {letter_b}, 
+the result is {product_ab}"""
+)
 
 print("      /|")
 print("     / |")
