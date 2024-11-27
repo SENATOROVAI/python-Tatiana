@@ -3,7 +3,6 @@
 
 ## Python
   * [Clean Code Conspect](python/clean_code_conspect.ipynb)
-  * [Clean Code Conspect](python/clean_code_conspect.py)
   * [Clean Code Conspect2](python/clean_code_conspect2.ipynb)
   * Made-Easy
     * [Chapter 13 Modules And Packages Python Made Easy](python/made-easy/chapter_13_modules_and_packages_python_made_easy.ipynb)
