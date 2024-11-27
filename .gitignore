@@ -240,3 +240,4 @@ coverage/
 .pre-commit-config.yaml
 DIRECTORY.md
 README.md
+git.ipynb
