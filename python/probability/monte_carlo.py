@@ -101,8 +101,10 @@ print(result_1)
 # побрасываем 3 раза монетку
 print([np.random.binomial(1, 0.5) for _ in range(3)])
 
-
+# +
 # создаем функцию подбрасывания монетки
+
+
 def coin_toss() -> float:
     """Подбрасывает монету и возвращает результат.
 
@@ -112,7 +114,10 @@ def coin_toss() -> float:
     return pd.Series([0, 1]).sample(1).item()
 
 
+# +
 # создаем функцию подбрасывания монетки
+
+
 def coin_toss2() -> int:
     """Подбрасывает монету и возвращает результат.
 
@@ -121,6 +126,8 @@ def coin_toss2() -> int:
     """
     return np.random.binomial(1, 0.5)
 
+
+# -
 
 print(coin_toss())
 print(coin_toss2())

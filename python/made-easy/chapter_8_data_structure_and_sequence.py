@@ -432,12 +432,12 @@ print(create_coordinate_pairs())
 list_f: list[list[int]] = [[i_] for i_ in range(4, 7)]
 print(list_f)  # [[4], [5], [6]]
 
-
 # ж)
-
 
 # +
 # 38
+
+
 def create_pairs() -> list[tuple[int, int]]:
     """Создание списка пар."""
     return [(i_, j_) for i_ in range(1, 4) for j_ in range(1, 4)]

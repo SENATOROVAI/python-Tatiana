@@ -11,7 +11,6 @@
 #     language: python<br>
 #     name: python3<br>
 # ---
-
 """Module on packages."""
 
 import sys
